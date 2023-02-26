@@ -10,12 +10,13 @@ import SwiftUI
 struct GridView: View {
     var body: some View {
         
-        Grid(alignment: .leading){
+        Grid(alignment: .leading, horizontalSpacing: 12,verticalSpacing: 12){
             GridRow{
             
                 Text("Votes")
                     .gridColumnAlignment(.trailing)
-                Text("Percentage")
+                    .gridCellColumns(2)
+                //Text("Percentage")
                 Text("Rating")
                 
             }//GridRow1
