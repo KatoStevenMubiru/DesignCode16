@@ -20,13 +20,23 @@ struct GridView: View {
                 Text("Rating")
                 
             }//GridRow1
+            Divider()
+                .gridCellUnsizedAxes(.horizontal)
+            GridRow{
+            
+                Text("4")
+                ProgressView(value: 0.3)
+                    .frame(maxWidth: 250)
+                Image(systemName: "star")
+                
+            }//GridRow1
             GridRow{
             
                 Text("4")
                 ProgressView(value: 0.3)
                 Image(systemName: "star")
                 
-            }//GridRow1
+            }//GridRow3
         }// Grid
         .padding(20)
     }
