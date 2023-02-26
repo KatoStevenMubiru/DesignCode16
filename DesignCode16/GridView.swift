@@ -27,14 +27,15 @@ struct GridView: View {
                 Text("4")
                 ProgressView(value: 0.3)
                     .frame(maxWidth: 250)
-                Image(systemName: "star")
+                RatingView()
                 
             }//GridRow1
             GridRow{
             
                 Text("4")
-                ProgressView(value: 0.3)
-                Image(systemName: "star")
+                ProgressView(value: 0.7)
+                    .frame(maxWidth: 250)
+               RatingView()
                 
             }//GridRow3
         }// Grid
@@ -46,4 +47,12 @@ struct GridView_Previews: PreviewProvider {
     static var previews: some View {
         GridView()
     }
+}
+struct RatingView: View{
+    var rating = 3
+    var body: some View{
+        
+        Image(systemName: "star")
+    }
+    
 }
