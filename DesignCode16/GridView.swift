@@ -27,7 +27,7 @@ struct GridView: View {
                 Text("4")
                 ProgressView(value: 0.3)
                     .frame(maxWidth: 250)
-                RatingView()
+                RatingView(rating: 2)
                 
             }//GridRow1
             GridRow{
@@ -35,7 +35,7 @@ struct GridView: View {
                 Text("4")
                 ProgressView(value: 0.7)
                     .frame(maxWidth: 250)
-               RatingView()
+               RatingView(rating: 4)
                 
             }//GridRow3
         }// Grid
@@ -54,8 +54,8 @@ struct RatingView: View{
     var body: some View{
         
         HStack(spacing : 0) {
-            ForEach(list, id: \.) { item in
-                Image(systemName: "star")
+            ForEach(list, id: \.self) { item in
+                Image(systemName: rating >= item ? "star.fill" : "star")
             }
         }
     }
