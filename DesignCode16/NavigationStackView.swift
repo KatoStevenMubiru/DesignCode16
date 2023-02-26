@@ -14,8 +14,9 @@ struct NavigationStackView: View {
         NavigationStack{
             
             List(0 ..< 5) { item in
-                Text("Item")
-                 
+                
+                Label("Item", systemImage: "house")
+
             }// end of list
             .navigationTitle("Apps")
         .navigationBarTitleDisplayMode(.inline)
