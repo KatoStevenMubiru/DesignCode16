@@ -9,12 +9,25 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
+        VStack(alignment: .center, spacing: 20.0) {
+            Image(systemName: "timelapse")
                 .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
+                .foregroundColor(Color("AccentColor 1"))
+                .font(.largeTitle)
+            Text("Swicthing apps ")
+                .font(.largeTitle)
+                .fontWeight(.bold)
+            Text("Tap and hold any part of the screen for 1 second to show the menu for switching between apps.")
+                .multilineTextAlignment(.center)
+            Button(/*@START_MENU_TOKEN@*/"Button"/*@END_MENU_TOKEN@*/) {
+                /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
+            }// button
+            .frame(width: 300.0)
+            .foregroundColor(Color("AccentColor 1"))
+            .padding(.vertical)
+            .border(Color("AccentColor 1"), width: 2)
+               
+        }// vstack
         .padding()
     }
 }
