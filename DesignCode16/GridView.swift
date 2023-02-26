@@ -29,6 +29,7 @@ struct GridView: View {
             GridRow{
             
                 Text("4")
+                    .frame(width: 30, alignment: .trailing)
                 ProgressView(value: 0.3)
                     .frame(maxWidth: 250)
                 RatingView(rating: 2)
