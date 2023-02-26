@@ -54,7 +54,7 @@ struct RatingView: View{
     var body: some View{
         
         HStack(spacing : 0) {
-            ForEach(/*@START_MENU_TOKEN@*/0 ..< 5/*@END_MENU_TOKEN@*/) { item in
+            ForEach(list, id: \.) { item in
                 Image(systemName: "star")
             }
         }
