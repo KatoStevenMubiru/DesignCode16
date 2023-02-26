@@ -11,7 +11,17 @@ struct NavigationStackView: View {
     var body: some View {
         
         
-        Text("Item")
+        NavigationStack{
+            
+            List(0 ..< 5) { item in
+                Text("Item")
+                 
+            }// end of list
+            .navigationTitle("Apps")
+        .navigationBarTitleDisplayMode(.inline)
+        .listStyle(.plain)
+        }// end of navigation stack
+       
     
     }
 }
