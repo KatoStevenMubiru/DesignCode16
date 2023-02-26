@@ -15,7 +15,9 @@ struct NavigationStackView: View {
             
             List(0 ..< 5) { item in
                 
-                Label("Item", systemImage: "house")
+                NavigationLink(destination: Text("Content")){
+                    Label("Item", systemImage: "house")
+                }
 
             }// end of list
             .navigationTitle("Apps")
