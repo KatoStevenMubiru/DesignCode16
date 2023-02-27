@@ -27,9 +27,9 @@ struct ContentView: View {
                 //acion
             }label: {
                 Text("Got It")
-                    .frame(width: 300.0)
+                    .frame(maxWidth: .infinity)
                     .foregroundColor(Color("AccentColor 1"))
-                    .padding(.vertical)
+                    .padding(.all)
                     .border(Color("AccentColor 1"), width: 2)
             }// button
            
