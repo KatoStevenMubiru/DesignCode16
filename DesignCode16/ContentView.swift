@@ -17,7 +17,7 @@ struct ContentView: View {
                 .font(.largeTitle)
                 .fontWeight(.thin)
                 
-            Text("Swicthing apps ")
+            Text("Switching apps ")
                 .font(.largeTitle)
                 .fontWeight(.bold)
                
