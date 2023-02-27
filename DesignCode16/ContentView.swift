@@ -41,6 +41,9 @@ struct ContentView: View {
            
                
         }// vstack
+        .padding(30)
+        .background(Color("Background"))
+        .cornerRadius(12)
         .padding()
     }
 }
