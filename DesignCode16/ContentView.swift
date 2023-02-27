@@ -30,17 +30,20 @@ struct ContentView: View {
                 //acion
             }label: {
                 Text("Got It")
-                    .foregroundColor(Color("AccentColor 1"))
-                    .frame(maxWidth: .infinity)
-                    //.foregroundColor(Color("AccentColor 1"))
                     .padding(.all)
+                   // .foregroundColor(Color("AccentColor 1"))
+                    .frame(maxWidth: .infinity)
+                    .background(.white.opacity(0.2).gradient)
+                    //.foregroundColor(Color("AccentColor 1"))
+                    .cornerRadius(12)
                     //.border(Color("AccentColor 1"), width: 2)
                     .background (
                         RoundedRectangle(cornerRadius: 12)
                             .stroke()
+                            .foregroundColor(.secondary)
                     )
             }// button
-            .foregroundColor(Color("AccentColor 1"))
+            .accentColor(.primary)
            
                
         }// vstack
