@@ -17,8 +17,8 @@ struct ContentView: View {
                 .font(.largeTitle)
                 .fontWeight(.thin)
                 
-            Text("Switching apps ")
-                .font(.largeTitle)
+            Text("Switching apps ".uppercased())
+                .font(.largeTitle.width(.condensed))
                 .fontWeight(.bold)
                
             Text("Tap and hold any part of the screen for 1 second to show the menu for switching between apps.")
