@@ -23,8 +23,10 @@ struct ContentView: View {
                
             Text("Tap and hold any part of the screen for 1 second to show the menu for switching between apps.")
                 .multilineTextAlignment(.center)
-            Button("Got It") {
-                /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
+            Button{
+                //acion
+            } {
+                Text("Got It")
             }// button
             .frame(width: 300.0)
             .foregroundColor(Color("AccentColor 1"))
