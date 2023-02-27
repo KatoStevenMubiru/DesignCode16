@@ -27,11 +27,12 @@ struct ContentView: View {
                 //acion
             }label: {
                 Text("Got It")
+                    .frame(width: 300.0)
+                    .foregroundColor(Color("AccentColor 1"))
+                    .padding(.vertical)
+                    .border(Color("AccentColor 1"), width: 2)
             }// button
-            .frame(width: 300.0)
-            .foregroundColor(Color("AccentColor 1"))
-            .padding(.vertical)
-            .border(Color("AccentColor 1"), width: 2)
+           
                
         }// vstack
         .padding()
