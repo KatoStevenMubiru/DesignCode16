@@ -40,8 +40,10 @@ struct ContentView: View {
                     .background (
                         RoundedRectangle(cornerRadius: 12)
                             .stroke()
-                            .foregroundStyle(.linearGradient(colors:[.white.opacity(0.5), .clear], startPoint: .top, endPoint: .bottom))
+                            .foregroundStyle(.linearGradient(colors:[.white.opacity(0.5), .clear, .white.opacity(0.5), .clear], startPoint: .top, endPoint: .bottom))
                     )
+                    .shadow(color: .black.opacity(0.3), radius: 20, y: 20)
+                    .padding(12)
             }// button
             .accentColor(.primary)
            
