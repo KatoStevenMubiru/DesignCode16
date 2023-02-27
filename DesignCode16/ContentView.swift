@@ -23,6 +23,9 @@ struct ContentView: View {
                
             Text("Tap and hold any part of the screen for 1 second to show the menu for switching between apps.")
                 .multilineTextAlignment(.center)
+                .foregroundColor(.secondary)
+                .fontWeight(.medium)
+            
             Button{
                 //acion
             }label: {
