@@ -10,13 +10,17 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack(alignment: .center, spacing: 20.0) {
-            Image(systemName: "timelapse")
+            Image(systemName: "timelapse", variableValue: 0.4)
                 .imageScale(.large)
                 .foregroundColor(Color("AccentColor 1"))
+                .font(.system(size: 50))
                 .font(.largeTitle)
+                .fontWeight(.thin)
+                
             Text("Swicthing apps ")
                 .font(.largeTitle)
                 .fontWeight(.bold)
+               
             Text("Tap and hold any part of the screen for 1 second to show the menu for switching between apps.")
                 .multilineTextAlignment(.center)
             Button(/*@START_MENU_TOKEN@*/"Button"/*@END_MENU_TOKEN@*/) {
