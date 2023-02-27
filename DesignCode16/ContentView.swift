@@ -27,7 +27,7 @@ struct ContentView: View {
                 //acion
             }label: {
                 Text("Got It")
-                    .foregroundColor(.white)
+                    .foregroundColor(Color("AccentColor 1"))
                     .frame(maxWidth: .infinity)
                     //.foregroundColor(Color("AccentColor 1"))
                     .padding(.all)
