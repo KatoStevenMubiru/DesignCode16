@@ -25,7 +25,7 @@ struct ContentView: View {
                 .multilineTextAlignment(.center)
             Button{
                 //acion
-            } {
+            }label: {
                 Text("Got It")
             }// button
             .frame(width: 300.0)
