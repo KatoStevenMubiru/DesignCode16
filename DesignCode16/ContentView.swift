@@ -27,11 +27,17 @@ struct ContentView: View {
                 //acion
             }label: {
                 Text("Got It")
+                    .foregroundColor(.white)
                     .frame(maxWidth: .infinity)
-                    .foregroundColor(Color("AccentColor 1"))
+                    //.foregroundColor(Color("AccentColor 1"))
                     .padding(.all)
-                    .border(Color("AccentColor 1"), width: 2)
+                    //.border(Color("AccentColor 1"), width: 2)
+                    .background (
+                        RoundedRectangle(cornerRadius: 12)
+                            .stroke()
+                    )
             }// button
+            .foregroundColor(Color("AccentColor 1"))
            
                
         }// vstack
