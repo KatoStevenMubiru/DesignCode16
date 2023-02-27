@@ -43,7 +43,7 @@ struct ContentView: View {
         }// vstack
         .padding(30)
         .background(Color("Background"))
-        .background (RoundedRectangle(cornerRadius: 12).stroke())
+        .overlay(RoundedRectangle(cornerRadius: 12).stroke())
         .cornerRadius(12)
         .padding()
     }
