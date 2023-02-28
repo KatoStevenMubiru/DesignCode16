@@ -58,6 +58,7 @@ struct ContentView: View {
         )
         .cornerRadius(12)
         .padding()
+        .dynamicTypeSize(.xSmall ... .xxxLarge)
     }
 }
 
@@ -65,5 +66,6 @@ struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
             .background(Image("Wallpaper 2"))
+            
     }
 }
