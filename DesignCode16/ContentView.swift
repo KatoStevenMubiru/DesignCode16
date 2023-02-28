@@ -59,6 +59,7 @@ struct ContentView: View {
         .cornerRadius(12)
         .padding()
         .dynamicTypeSize(.xSmall ... .xxxLarge)
+        .frame(maxWidth: 500)
     }
 }
 
