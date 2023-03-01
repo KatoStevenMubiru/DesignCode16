@@ -8,14 +8,25 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var time = 0.0
+    let timer  = Timer.publish(every: 0.1, on: .main, in: .common).autoconnect()
+    
     var body: some View {
         VStack(alignment: .center, spacing: 20.0) {
-            Image(systemName: "timelapse", variableValue: 0.4)
+            Image(systemName: "timelapse", variableValue: time)
                 .imageScale(.large)
                 .foregroundColor(Color("AccentColor 1"))
                 .font(.system(size: 50))
                 .font(.largeTitle)
                 .fontWeight(.thin)
+                .onReceive(timer) { value in
+                    
+                    if time < 1.0{
+                        time += 0.1
+                    }else{
+                        
+                    }
+                }
                 
             Text("Switching apps ".uppercased())
                 .font(.largeTitle.width(.condensed))
