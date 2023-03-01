@@ -9,12 +9,13 @@ import SwiftUI
 
 struct ContentView: View {
     @State var time = 0.0
+    @State var showMessage = true
     let timer  = Timer.publish(every: 0.1, on: .main, in: .common).autoconnect()
     
     var body: some View{
        
         content
-        
+            .opacity(showMessage ? 1 : 0 )
     }// body
     
     var content: some View {
