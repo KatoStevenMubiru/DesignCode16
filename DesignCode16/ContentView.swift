@@ -17,6 +17,7 @@ struct ContentView: View {
         content
             .opacity(showMessage ? 1 : 0 )
             .scaleEffect(showMessage ? 1 : 0)
+            .rotationEffect(.degrees(showMessage ? 0 : 30))
     }// body
     
     var content: some View {
