@@ -45,7 +45,12 @@ struct ContentView: View {
                 .fontWeight(.medium)
             
             Button{
-                //acion
+                withAnimation {
+                    <#code#>
+                }
+                
+                showMessage = false
+                
             }label: {
                 Text("Got It")
                     .padding(.all)
