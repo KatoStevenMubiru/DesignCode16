@@ -55,9 +55,7 @@ struct ContentView: View {
                     .cornerRadius(12)
                     //.border(Color("AccentColor 1"), width: 2)
                     .background (
-                        RoundedRectangle(cornerRadius: 12)
-                            .stroke()
-                            .foregroundStyle(.linearGradient(colors:[.white.opacity(0.5), .clear, .white.opacity(0.5), .clear], startPoint: .top, endPoint: .bottom))
+                        stroke
                     )
                     .shadow(color: .black.opacity(0.3), radius: 20, y: 20)
                     .padding(12)
@@ -78,6 +76,12 @@ struct ContentView: View {
         .dynamicTypeSize(.xSmall ... .xxxLarge)
         .frame(maxWidth: 500)
     }
+}
+var stroke : some View{
+    
+    RoundedRectangle(cornerRadius: 12)
+        .stroke()
+        .foregroundStyle(.linearGradient(colors:[.white.opacity(0.5), .clear, .white.opacity(0.5), .clear], startPoint: .top, endPoint: .bottom))
 }
 
 struct ContentView_Previews: PreviewProvider {
