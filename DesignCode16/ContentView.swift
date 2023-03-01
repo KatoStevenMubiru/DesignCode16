@@ -24,7 +24,7 @@ struct ContentView: View {
                     if time < 1.0{
                         time += 0.1
                     }else{
-                        
+                        //time = 0.0
                     }
                 }
                 
