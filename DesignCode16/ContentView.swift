@@ -45,7 +45,7 @@ struct ContentView: View {
                 .fontWeight(.medium)
             
             Button{
-                withAnimation {
+                withAnimation(.easeInOut) {
                     showMessage = false
                 }
                 
