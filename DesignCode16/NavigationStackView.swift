@@ -13,10 +13,10 @@ struct NavigationStackView: View {
         
         NavigationStack{
             
-            List(0 ..< 5) { item in
+            List(navigationItems) { item in
                 
-                NavigationLink(destination: Text("Content")){
-                    Label("Item", systemImage: "house")
+                NavigationLink(destination: Text(item.title)){
+                    Label(item.title, systemImage: item.icon)
                 }
 
             }// end of list
