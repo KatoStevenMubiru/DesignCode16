@@ -16,6 +16,7 @@ struct ContentView: View {
        
         content
             .opacity(showMessage ? 1 : 0 )
+            .scaleEffect(showMessage ? 1 : 0)
     }// body
     
     var content: some View {
