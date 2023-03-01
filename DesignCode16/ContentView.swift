@@ -46,10 +46,10 @@ struct ContentView: View {
             
             Button{
                 withAnimation {
-                    <#code#>
+                    showMessage = false
                 }
                 
-                showMessage = false
+               
                 
             }label: {
                 Text("Got It")
