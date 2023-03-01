@@ -76,13 +76,15 @@ struct ContentView: View {
         .dynamicTypeSize(.xSmall ... .xxxLarge)
         .frame(maxWidth: 500)
     }
-}
-var stroke : some View{
     
-    RoundedRectangle(cornerRadius: 12)
-        .stroke()
-        .foregroundStyle(.linearGradient(colors:[.white.opacity(0.5), .clear, .white.opacity(0.5), .clear], startPoint: .top, endPoint: .bottom))
+    var stroke : some View{
+        
+        RoundedRectangle(cornerRadius: 12)
+            .stroke()
+            .foregroundStyle(.linearGradient(colors:[.white.opacity(0.5), .clear, .white.opacity(0.5), .clear], startPoint: .top, endPoint: .bottom))
+    }
 }
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
