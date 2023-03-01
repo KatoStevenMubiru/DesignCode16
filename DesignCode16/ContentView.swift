@@ -19,6 +19,7 @@ struct ContentView: View {
             .scaleEffect(showMessage ? 1 : 0)
             .rotationEffect(.degrees(showMessage ? 0 : 30))
             .offset(y: showMessage ? 0 : 500)
+            .blur(radius: showMessage ? 0 : 20)
     }// body
     
     var content: some View {
@@ -81,7 +82,7 @@ struct ContentView: View {
                 .foregroundStyle(.linearGradient(colors:[.white.opacity(0.5), .clear], startPoint: .top, endPoint: .bottom))
         )
         .cornerRadius(12)
-        .padding()
+        .padding(12)
         .dynamicTypeSize(.xSmall ... .xxxLarge)
         .frame(maxWidth: 500)
     }
