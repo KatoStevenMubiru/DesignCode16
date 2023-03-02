@@ -23,8 +23,8 @@ var navigationItems = [
     NavigationItem(title: "Radial Layout", icon: "clock", menu: .radial),
     NavigationItem(title: "Charts", icon: "chart.xyaxis.line", menu:.charts),
     NavigationItem(title: "Half Sheet", icon: "rectangle.portrait.bottomhalf.filled", menu: .halfsheet),
-    NavigationItem(title: "", icon: "", menu: .gooey),
-    NavigationItem(title: "", icon: "", menu: .actionbutton)
+    NavigationItem(title: "Gooey Menu", icon: "drop", menu: .gooey),
+    NavigationItem(title: "Goey ", icon: "", menu: .actionbutton)
   
 ]
 
