@@ -23,6 +23,8 @@ struct NavigationStackView: View {
             .navigationDestination(for: NavigationItem.self ){ item in
                 if item.menu == .compass{
                     Text("Compass")
+                }else if item.menu == .card{
+                    Text("Card")
                 }
                 
             }//navigationDest
