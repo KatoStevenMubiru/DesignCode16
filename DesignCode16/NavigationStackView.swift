@@ -36,7 +36,7 @@ struct NavigationStackView: View {
                     Text(item.title)
                 case .actionbutton:
                     Text(item.title)
-                }
+                }// end of swicth
                 
             }//navigationDest
             .navigationTitle("Apps")
