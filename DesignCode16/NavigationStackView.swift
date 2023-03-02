@@ -25,17 +25,17 @@ struct NavigationStackView: View {
                 case .compass:
                     ContentView()
                 case .card:
-                    <#code#>
+                    Text(item.title)
                 case .charts:
-                    <#code#>
+                    Text(item.title)
                 case .radial:
-                    <#code#>
+                    Text(item.title)
                 case .halfsheet:
-                    <#code#>
+                    Text(item.title)
                 case .gooey:
-                    <#code#>
+                    Text(item.title)
                 case .actionbutton:
-                    <#code#>
+                    Text(item.title)
                 }
                 
             }//navigationDest
