@@ -20,6 +20,10 @@ struct NavigationStackView: View {
                 }
 
             }// end of list
+            .navigationDestination(for: NavigationItem.self ){ item in
+                
+                
+            }//navigationDest
             .navigationTitle("Apps")
         .navigationBarTitleDisplayMode(.inline)
         .listStyle(.plain)
