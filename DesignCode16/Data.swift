@@ -18,9 +18,9 @@ struct NavigationItem : Identifiable, Hashable{
 
 var navigationItems = [
 
-    NavigationItem(title: "Compass App", icon: "safari"),
-    NavigationItem(title: "3D Card", icon: "lanyardcard"),
-    NavigationItem(title: "", icon: "")
+    NavigationItem(title: "Compass App", icon: "safari", menu: .compass),
+    NavigationItem(title: "3D Card", icon: "lanyardcard", menu: .card ),
+    NavigationItem(title: "", icon: "", menu: <#Menu#>)
   
 ]
 
