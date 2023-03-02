@@ -20,7 +20,7 @@ var navigationItems = [
 
     NavigationItem(title: "Compass App", icon: "safari", menu: .compass),
     NavigationItem(title: "3D Card", icon: "lanyardcard", menu: .card ),
-    NavigationItem(title: "", icon: "", menu: <#Menu#>)
+    //NavigationItem(title: "", icon: "", menu: <#Menu#>)
   
 ]
 
