@@ -20,12 +20,21 @@ var navigationItems = [
 
     NavigationItem(title: "Compass App", icon: "safari", menu: .compass),
     NavigationItem(title: "3D Card", icon: "lanyardcard", menu: .card ),
-    //NavigationItem(title: "", icon: "", menu: <#Menu#>)
+    NavigationItem(title: "", icon: "", menu: .radial),
+    NavigationItem(title: "", icon: "", menu:.charts)
+    NavigationItem(title: "", icon: "", menu: .halfsheet)
+    NavigationItem(title: "", icon: "", menu: .gooey)
+    NavigationItem(title: "", icon: "", menu: .actionbutton)
   
 ]
 
 enum Menu: String{
     case compass
     case card
+    case charts
+    case radial
+    case halfsheet
+    case gooey
+    case actionbutton
     
 }
