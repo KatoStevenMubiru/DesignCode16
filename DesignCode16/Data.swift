@@ -20,9 +20,9 @@ var navigationItems = [
 
     NavigationItem(title: "Compass App", icon: "safari", menu: .compass),
     NavigationItem(title: "3D Card", icon: "lanyardcard", menu: .card ),
-    NavigationItem(title: "", icon: "", menu: .radial),
-    NavigationItem(title: "", icon: "", menu:.charts),
-    NavigationItem(title: "", icon: "", menu: .halfsheet),
+    NavigationItem(title: "Radial Layout", icon: "clock", menu: .radial),
+    NavigationItem(title: "Charts", icon: "chart.xyaxis.line", menu:.charts),
+    NavigationItem(title: "Half Sheet", icon: "rectangle.portrait.bottomhalf.filled", menu: .halfsheet),
     NavigationItem(title: "", icon: "", menu: .gooey),
     NavigationItem(title: "", icon: "", menu: .actionbutton)
   
