@@ -24,7 +24,7 @@ var navigationItems = [
     NavigationItem(title: "Charts", icon: "chart.xyaxis.line", menu:.charts),
     NavigationItem(title: "Half Sheet", icon: "rectangle.portrait.bottomhalf.filled", menu: .halfsheet),
     NavigationItem(title: "Gooey Menu", icon: "drop", menu: .gooey),
-    NavigationItem(title: "Goey ", icon: "", menu: .actionbutton)
+    NavigationItem(title: "Goey Action Button", icon: "plus.circle", menu: .actionbutton)
   
 ]
 
