@@ -22,3 +22,9 @@ var navigationItems = [
     NavigationItem(title: "", icon: "")
   
 ]
+
+enum Menu: String{
+    case compass
+    case card
+    
+}
