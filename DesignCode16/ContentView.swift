@@ -8,10 +8,13 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var showMenu = false
     
     var body : some View{
         
-        Text("Root")
+        Button("Show Menu"){
+            showMenu = true
+        }
     }
    
 }
