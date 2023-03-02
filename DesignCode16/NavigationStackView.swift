@@ -17,6 +17,7 @@ struct NavigationStackView: View {
                 
                 NavigationLink(destination: Text(item.title)){
                     Label(item.title, systemImage: item.icon)
+                        .foregroundColor(.primary)
                 }// end of navigation Link
                 
 
