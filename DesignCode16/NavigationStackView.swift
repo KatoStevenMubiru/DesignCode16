@@ -21,7 +21,9 @@ struct NavigationStackView: View {
 
             }// end of list
             .navigationDestination(for: NavigationItem.self ){ item in
-                
+                if item.menu == .compass{
+                    Text("Compass")
+                }
                 
             }//navigationDest
             .navigationTitle("Apps")
