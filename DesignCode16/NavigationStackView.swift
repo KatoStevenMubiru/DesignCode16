@@ -21,10 +21,21 @@ struct NavigationStackView: View {
 
             }// end of list
             .navigationDestination(for: NavigationItem.self ){ item in
-                if item.menu == .compass{
-                    Text("Compass")
-                }else if item.menu == .card{
-                    Text("Card")
+                switch item.menu{
+                case .compass:
+                    ContentView()
+                case .card:
+                    <#code#>
+                case .charts:
+                    <#code#>
+                case .radial:
+                    <#code#>
+                case .halfsheet:
+                    <#code#>
+                case .gooey:
+                    <#code#>
+                case .actionbutton:
+                    <#code#>
                 }
                 
             }//navigationDest
