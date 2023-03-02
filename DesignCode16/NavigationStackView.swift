@@ -17,7 +17,8 @@ struct NavigationStackView: View {
                 
                 NavigationLink(destination: Text(item.title)){
                     Label(item.title, systemImage: item.icon)
-                }
+                }// end of navigation Link
+                
 
             }// end of list
             .navigationDestination(for: NavigationItem.self ){ item in
