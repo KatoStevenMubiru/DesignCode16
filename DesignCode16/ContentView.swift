@@ -12,13 +12,15 @@ struct ContentView: View {
     
     var body : some View{
         
-        Button("Show Menu"){
-            showMenu = true
-        }//button
-        .sheet(isPresented: $showMenu) {
-            NavigationStackView()
-                .presentationDetents([.medium, .large])
+        ZStack {
+            Button("Show Menu"){
+                showMenu = true
+            }//button
+            .sheet(isPresented: $showMenu) {
+                NavigationStackView()
+                    .presentationDetents([.medium, .large])
         }// sheet
+        }//Zstack
     }
    
 }
