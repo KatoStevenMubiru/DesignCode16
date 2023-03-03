@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct MenuView: View {
-    @Binding var selectedMenu : Menu
+    @AppStorage("selectedMenu") var selectedMenu : Menu = .compass
     @Environment(\.presentationMode) var presentationMode
     
     var body: some View {
@@ -32,6 +32,6 @@ struct MenuView: View {
 
 struct MenuView_Previews: PreviewProvider {
     static var previews: some View {
-        MenuView(selectedMenu: .constant(.compass))
+        MenuView()
     }
 }
