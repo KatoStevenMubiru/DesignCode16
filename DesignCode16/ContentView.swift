@@ -52,6 +52,7 @@ struct ContentView: View {
                     .presentationDetents([.medium, .large])
         }// sheet
         }//Zstack
+        .gesture(longPress)
     }
    
 }
