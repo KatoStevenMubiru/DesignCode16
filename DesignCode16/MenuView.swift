@@ -22,6 +22,7 @@ struct MenuView: View {
             
             
         }// end of List
+        .listStyle(.plain)
     }
 }
 
