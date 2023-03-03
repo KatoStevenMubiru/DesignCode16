@@ -10,11 +10,16 @@ import SwiftUI
 struct MenuView: View {
     var body: some View {
         List(navigationItems){ item in
+            
+            Button{
+                
+            } 
+            
             Label(item.title, systemImage: item.icon)
                 .foregroundColor(.primary)
                 .padding(8)
             
-        }
+        }// end of List
     }
 }
 
