@@ -19,7 +19,7 @@ struct ContentView: View {
                 showMenu = true
             }//button
             .sheet(isPresented: $showMenu) {
-                NavigationStackView()
+                MenuView(selectedMenu: $selectedMenu)
                     .presentationDetents([.medium, .large])
         }// sheet
         }//Zstack
