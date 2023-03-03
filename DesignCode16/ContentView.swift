@@ -19,17 +19,17 @@ struct ContentView: View {
                 MessageView()
                 
             case .card:
-                <#code#>
+                Text("Card")
             case .charts:
-                <#code#>
+                Text("Charts")
             case .radial:
-                <#code#>
+                Text("Radial")
             case .halfsheet:
-                <#code#>
+                Text("Half sheet")
             case .gooey:
-                <#code#>
+                Text("Goey")
             case .actionbutton:
-                <#code#>
+                Text("Action Button")
             }
             
             Button("Show Menu"){
