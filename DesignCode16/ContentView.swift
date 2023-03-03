@@ -17,6 +17,9 @@ struct ContentView: View {
             .updating($press) { currentState, gestureState, transcation in
                 gestureState = currentState
             }
+            .onEnded { value in
+                showMenu = true
+            }
         
     }//longPress Gesture
     
