@@ -14,7 +14,11 @@ struct ContentView: View {
         
         Button("Show Menu"){
             showMenu = true
-        }
+        }//button
+        .sheet(isPresented: $showMenu) {
+            NavigationStackView()
+                .presentationDetents([.medium, .large])
+        }// sheet
     }
    
 }
