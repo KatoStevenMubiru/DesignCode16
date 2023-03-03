@@ -13,7 +13,7 @@ struct MenuView: View {
         List(navigationItems){ item in
             
             Button{
-                //
+                selectedMenu = item.menu
             } label: {
                 Label(item.title, systemImage: item.icon)
                     .foregroundColor(.primary)
