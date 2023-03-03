@@ -47,15 +47,16 @@ struct ContentView: View {
                 Text("Action Button")
             }
             
-            Button("Show Menu"){
-                showMenu = true
-            }//button
-            .sheet(isPresented: $showMenu) {
-                MenuView(selectedMenu: $selectedMenu)
-                    .presentationDetents([.medium, .large])
-        }// sheet
+            //Button("Show Menu"){
+              //  showMenu = true
+            //}//button
+            
         }//Zstack
         .gesture(longPress)
+        .sheet(isPresented: $showMenu) {
+            MenuView(selectedMenu: $selectedMenu)
+                .presentationDetents([.medium, .large])
+    }// sheet
     }
    
 }
