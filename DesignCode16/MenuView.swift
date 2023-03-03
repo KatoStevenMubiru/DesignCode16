@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct MenuView: View {
+    @Binding var selectedMenu : Menu
     var body: some View {
         List(navigationItems){ item in
             
@@ -28,6 +29,6 @@ struct MenuView: View {
 
 struct MenuView_Previews: PreviewProvider {
     static var previews: some View {
-        MenuView()
+        MenuView(selectedMenu: .constant(.compass))
     }
 }
