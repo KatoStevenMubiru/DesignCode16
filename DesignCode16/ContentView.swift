@@ -10,6 +10,12 @@ import SwiftUI
 struct ContentView: View {
     @State var showMenu = false
     @State var selectedMenu: Menu = .compass
+    @GestureState var press = false
+    
+    var longPress: some Gesture{
+        
+        
+    }//longPress Gesture
     
     var body : some View{
         
