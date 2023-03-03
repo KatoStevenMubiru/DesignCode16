@@ -12,12 +12,14 @@ struct MenuView: View {
         List(navigationItems){ item in
             
             Button{
-                
-            } 
+                //
+            } label: {
+                Label(item.title, systemImage: item.icon)
+                    .foregroundColor(.primary)
+                    .padding(8)
+            }
             
-            Label(item.title, systemImage: item.icon)
-                .foregroundColor(.primary)
-                .padding(8)
+            
             
         }// end of List
     }
