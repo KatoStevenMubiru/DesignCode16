@@ -10,7 +10,7 @@ import SwiftUI
 struct MenuView: View {
     var body: some View {
         List(navigationItems){ item in
-            Label(item.title, systemImage: ite)
+            Label(item.title, systemImage: item.icon)
             
         }
     }
