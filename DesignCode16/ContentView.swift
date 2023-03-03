@@ -9,10 +9,12 @@ import SwiftUI
 
 struct ContentView: View {
     @State var showMenu = false
+    @State var selectedMenu: Menu = .compass
     
     var body : some View{
         
         ZStack {
+            
             Button("Show Menu"){
                 showMenu = true
             }//button
