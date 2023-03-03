@@ -14,6 +14,23 @@ struct ContentView: View {
     var body : some View{
         
         ZStack {
+            switch selectedMenu{
+            case .compass:
+                MessageView()
+                
+            case .card:
+                <#code#>
+            case .charts:
+                <#code#>
+            case .radial:
+                <#code#>
+            case .halfsheet:
+                <#code#>
+            case .gooey:
+                <#code#>
+            case .actionbutton:
+                <#code#>
+            }
             
             Button("Show Menu"){
                 showMenu = true
