@@ -12,7 +12,7 @@ struct MenuView: View {
         List(navigationItems){ item in
             Label(item.title, systemImage: item.icon)
                 .foregroundColor(.primary)
-            
+                .padding(8)
             
         }
     }
