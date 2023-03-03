@@ -26,6 +26,9 @@ struct ContentView: View {
     var body : some View{
         
         ZStack {
+            Color(.systemBackground).ignoresSafeArea()
+            
+            
             switch selectedMenu{
             case .compass:
                 MessageView()
