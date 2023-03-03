@@ -13,7 +13,10 @@ struct ContentView: View {
     @GestureState var press = false
     
     var longPress: some Gesture{
-        
+        LongPressGesture(minimumDuration: 1)
+            .updating($press) { currentState, gestureState, transcation in
+                <#code#>
+            }
         
     }//longPress Gesture
     
