@@ -23,6 +23,11 @@ struct ChartView: View {
                 }
                 .cornerRadius(12)
                 .interpolationMethod(.catmullRom)
+                ForEach(data2) { item in
+              LineMark(x: .value("Day ", item.day), y:.value("Value", item.value))
+                }
+                .cornerRadius(12)
+                .interpolationMethod(.catmullRom)
                 
                         
                 
@@ -58,4 +63,11 @@ let data = [
     Value(day: "June 9", value: 15.00),
     Value(day: "June 10", value: 50.00),
     Value(day: "June 12", value: 7.00),
+]
+let data2 = [
+    Value(day: "June 5", value: 90.00),
+    Value(day: "June 7", value: 45.00),
+    Value(day: "June 9", value: 35.00),
+    Value(day: "June 10", value: 12.00),
+    Value(day: "June 12", value: 32.00),
 ]
