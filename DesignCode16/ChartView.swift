@@ -18,13 +18,10 @@ struct ChartView: View {
             //Image("Wallpaper 3").ignoresSafeArea(.all)
             Chart {
                 
-                BarMark(x: .value("Day ", "June 1"), y:.value("Value", 50))
-                        
-                BarMark(x: .value("Day ", "June 2"), y:.value("Value", 30))
-                  
-                
-                BarMark(x: .value("Day ", "June 3"), y:.value("Value", 20))
-                   
+                ForEach(/*@START_MENU_TOKEN@*/0 ..< 5/*@END_MENU_TOKEN@*/) { item in
+                    BarMark(x: .value("Day ", "June 1"), y:.value("Value", 50))
+                }
+               
                 
                         
                 
