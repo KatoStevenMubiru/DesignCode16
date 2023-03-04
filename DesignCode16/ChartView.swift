@@ -14,13 +14,20 @@ struct ChartView: View {
     var body: some View {
         
         ZStack {
-            
-            Chart{
-                BarMark(x: <#T##PlottableValue<Plottable>#>, y: <#T##PlottableValue<Plottable>#>)
+            Image("Wallpaper 3")
+            Chart {
                 
-            }
+                BarMark(x: .value("Day ", "June 1"), y:.value("Value", 50))
+                        
+                BarMark(x: .value("Day ", "June 2"), y:.value("Value", 30))
+                        
+                
+            }// chart
+                
+            
             
         }// Zstack
+    
     }
 }
 
