@@ -14,6 +14,7 @@ struct ChartView: View {
     var body: some View {
         
         ZStack {
+            .fo
             //Image("Wallpaper 3").ignoresSafeArea(.all)
             Chart {
                 
@@ -34,6 +35,7 @@ struct ChartView: View {
             
             
         }// Zstack
+        
     
     }
 }
@@ -43,3 +45,4 @@ struct ChartView_Previews: PreviewProvider {
         ChartView()
     }
 }
+
