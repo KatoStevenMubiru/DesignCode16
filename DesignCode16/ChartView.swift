@@ -19,12 +19,12 @@ struct ChartView: View {
             Chart {
                 
                 ForEach(data) { item in
-              LineMark(x: .value("Day ", item.day), y:.value("Value", item.value))
+                    LineMark(x: .value("Day ", item.day), y:.value("Value", item.value), series: .value("Year", "2023"))
                 }
                 .cornerRadius(12)
                 .interpolationMethod(.catmullRom)
                 ForEach(data2) { item in
-              LineMark(x: .value("Day ", item.day), y:.value("Value", item.value))
+                    LineMark(x: .value("Day ", item.day), y:.value("Value", item.value), series: .value("Year", "2022"))
                 }
                 .cornerRadius(12)
                 .interpolationMethod(.catmullRom)
