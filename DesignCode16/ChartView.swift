@@ -14,20 +14,20 @@ struct ChartView: View {
     var body: some View {
         
         ZStack {
-           
+         
             //Image("Wallpaper 3").ignoresSafeArea(.all)
             Chart {
                 
                 ForEach(data) { item in
                     LineMark(x: .value("Day ", item.day), y:.value("Value", item.value), series: .value("Year", "2023"))
-                }
+                }// foreach
                 .cornerRadius(12)
                 .interpolationMethod(.catmullRom)
                 .foregroundStyle(.yellow)
                 .symbol(by: .value("Year", "2023"))
                 ForEach(data2) { item in
                     LineMark(x: .value("Day ", item.day), y:.value("Value", item.value), series: .value("Year", "2022"))
-                }
+                }// foreach
                 .cornerRadius(12)
                 .interpolationMethod(.catmullRom)
                 .symbol(by: .value("Year", "2022"))
