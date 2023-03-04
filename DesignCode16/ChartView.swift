@@ -19,7 +19,7 @@ struct ChartView: View {
             Chart {
                 
                 ForEach(data) { item in
-                    BarMark(x: .value("Day ", item.day), y:.value("Value", item.value))
+              LineMark(x: .value("Day ", item.day), y:.value("Value", item.value))
                 }
                 .cornerRadius(12)
                 
