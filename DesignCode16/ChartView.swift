@@ -23,11 +23,14 @@ struct ChartView: View {
                 }
                 .cornerRadius(12)
                 .interpolationMethod(.catmullRom)
+                .foregroundStyle(.yellow)
+                .symbol(by: .value("Year", "2023"))
                 ForEach(data2) { item in
                     LineMark(x: .value("Day ", item.day), y:.value("Value", item.value), series: .value("Year", "2022"))
                 }
                 .cornerRadius(12)
                 .interpolationMethod(.catmullRom)
+                .symbol(by: .value("Year", "2022"))
                 
                         
                 
