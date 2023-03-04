@@ -14,7 +14,7 @@ struct ChartView: View {
     var body: some View {
         
         ZStack {
-            .fo
+           
             //Image("Wallpaper 3").ignoresSafeArea(.all)
             Chart {
                 
@@ -36,6 +36,7 @@ struct ChartView: View {
             
         }// Zstack
         
+        
     
     }
 }
@@ -46,3 +47,17 @@ struct ChartView_Previews: PreviewProvider {
     }
 }
 
+struct Value : Identifiable{
+    var id = UUID()
+    var day : String
+    var value : Double
+    
+}
+
+let data = [
+    Value(day: "June 5", value: 20.00),
+    Value(day: "June 5", value: 20.00),
+    Value(day: "June 5", value: 20.00),
+    Value(day: "June 5", value: 20.00),
+    Value(day: "June 5", value: 20.00),
+]
