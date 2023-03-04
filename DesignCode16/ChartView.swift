@@ -6,10 +6,21 @@
 //
 
 import SwiftUI
+import Charts
 
 struct ChartView: View {
+    
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        ZStack {
+            
+            Chart{
+                BarMark(x: <#T##PlottableValue<Plottable>#>, y: <#T##PlottableValue<Plottable>#>)
+                
+            }
+            
+        }// Zstack
     }
 }
 
