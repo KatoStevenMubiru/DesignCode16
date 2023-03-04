@@ -20,14 +20,16 @@ struct ChartView: View {
                 BarMark(x: .value("Day ", "June 1"), y:.value("Value", 50))
                         
                 BarMark(x: .value("Day ", "June 2"), y:.value("Value", 30))
-                    .foregroundStyle(.green)
+                  
                 
                 BarMark(x: .value("Day ", "June 3"), y:.value("Value", 20))
-                    .foregroundStyle(.yellow)
+                   
                 
                         
                 
             }// chart
+            .foregroundStyle(.linearGradient(colors:[.yellow, .green], startPoint: .bottomTrailing, endPoint: .topLeading))
+            .frame(height: 300)
                 
             
             
