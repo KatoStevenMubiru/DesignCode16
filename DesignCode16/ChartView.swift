@@ -21,12 +21,12 @@ struct ChartView: View {
                 ForEach(data) { item in
                     BarMark(x: .value("Day ", item.day), y:.value("Value", item.value))
                 }
-               
+                .cornerRadius(12)
                 
                         
                 
             }// chart
-            .foregroundStyle(.linearGradient(colors:[.red, .blue], startPoint: .top, endPoint: .bottom))
+            .foregroundStyle(.linearGradient(colors:[.yellow, .blue], startPoint: .top, endPoint: .bottom))
             .frame(height: 300)
                 
             
