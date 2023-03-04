@@ -28,7 +28,7 @@ struct ChartView: View {
                         
                 
             }// chart
-            .foregroundStyle(.linearGradient(colors:[.yellow, .green], startPoint: .bottomTrailing, endPoint: .topLeading))
+            .foregroundStyle(.linearGradient(colors:[.red, .blue], startPoint: .top, endPoint: .bottom))
             .frame(height: 300)
                 
             
