@@ -18,8 +18,8 @@ struct ChartView: View {
             //Image("Wallpaper 3").ignoresSafeArea(.all)
             Chart {
                 
-                ForEach(/*@START_MENU_TOKEN@*/0 ..< 5/*@END_MENU_TOKEN@*/) { item in
-                    BarMark(x: .value("Day ", "June 1"), y:.value("Value", 50))
+                ForEach(data) { item in
+                    BarMark(x: .value("Day ", item.day), y:.value("Value", item.value))
                 }
                
                 
@@ -53,8 +53,8 @@ struct Value : Identifiable{
 
 let data = [
     Value(day: "June 5", value: 20.00),
-    Value(day: "June 5", value: 20.00),
-    Value(day: "June 5", value: 20.00),
-    Value(day: "June 5", value: 20.00),
-    Value(day: "June 5", value: 20.00),
+    Value(day: "June 7", value: 40.00),
+    Value(day: "June 9", value: 15.00),
+    Value(day: "June 10", value: 50.00),
+    Value(day: "June 12", value: 7.00),
 ]
