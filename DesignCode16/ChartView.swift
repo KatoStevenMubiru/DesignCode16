@@ -22,7 +22,7 @@ struct ChartView: View {
               LineMark(x: .value("Day ", item.day), y:.value("Value", item.value))
                 }
                 .cornerRadius(12)
-                .interpolationMethod(.cardinal)
+                .interpolationMethod(.catmullRom)
                 
                         
                 
