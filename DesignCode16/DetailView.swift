@@ -12,7 +12,7 @@ struct DetailView: View {
        ScrollView{
             ViewThatFits {
               
-                HStack(alignment: .top) {
+                HStack(alignment: .top, spacing: 20) {
                   VStack {
                         ChartView()
                         CardView()
