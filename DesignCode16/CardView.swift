@@ -9,9 +9,16 @@ import SwiftUI
 
 struct CardView: View {
     var body: some View{
-        
-        
-        
+        Grid{
+            GridRow{
+                card
+                card
+                
+                
+                
+            }//Grid Row
+
+        }//Grid
         
     }//body
     
