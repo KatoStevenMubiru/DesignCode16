@@ -18,6 +18,7 @@ struct CardView: View {
                 .font(.title3.width(.condensed).bold())
             Text("Your wall paper will look good anywhere no matter the screen size")
                 .font(.footnote)
+                .multilineTextAlignment(.center)
         }// Vstack
     }
 }
