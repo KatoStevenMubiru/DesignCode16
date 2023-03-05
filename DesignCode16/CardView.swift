@@ -9,9 +9,13 @@ import SwiftUI
 
 struct CardView: View {
     var body: some View {
-       hexaShape()
-            .stroke()
+        VStack {
+            hexaShape()
+                .stroke()
             .frame(width: 45, height: 45)
+            
+            Text("Up to 8k resolution".uppercased())
+        }// Vstack
     }
 }
 
