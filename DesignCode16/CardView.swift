@@ -11,7 +11,7 @@ struct CardView: View {
     var body: some View {
        hexaShape()
             .stroke()
-            .frame(width: 44, height: 44)
+            .frame(width: 45, height: 45)
     }
 }
 
