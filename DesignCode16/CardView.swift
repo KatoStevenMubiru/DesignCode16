@@ -9,7 +9,7 @@ import SwiftUI
 
 struct CardView: View {
     var body: some View {
-        VStack {
+        VStack(spacing: 12) {
             hexaShape()
                 .stroke()
             .frame(width: 45, height: 45)
@@ -26,6 +26,7 @@ struct CardView: View {
         .background(.black)
         .foregroundColor(.white)
         .cornerRadius(22)
+        .opacity(0.7)
        
     }
 }
