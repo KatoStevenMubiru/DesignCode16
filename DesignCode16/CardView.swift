@@ -41,6 +41,7 @@ struct CardView: View {
                 .frame(maxWidth: .infinity)
             
         }// Vstack
+        .frame(maxHeight: .infinity)
         .padding().padding(.vertical)
         .background(.black)
         .foregroundColor(.white)
