@@ -8,6 +8,12 @@
 import SwiftUI
 
 struct CardView: View {
+    var body: some View{
+        
+        
+        
+        
+    }//body
     
     
     var card: some View {
@@ -30,7 +36,7 @@ struct CardView: View {
         .cornerRadius(22)
         .opacity(0.7)
        
-    }
+    }// card
 }
 
 struct CardView_Previews: PreviewProvider {
