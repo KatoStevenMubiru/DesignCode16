@@ -15,6 +15,7 @@ struct CardView: View {
             .frame(width: 45, height: 45)
             
             Text("Up to 8k resolution".uppercased())
+                .font(.title3.width(.condensed).bold())
         }// Vstack
     }
 }
