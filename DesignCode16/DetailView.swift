@@ -13,6 +13,7 @@ struct DetailView: View {
            Text("12 transactions".uppercased())
                .font(.subheadline.weight(.medium))
                .foregroundColor(.secondary)
+               .padding(.top, 20)
             ViewThatFits {
               
                 HStack(alignment: .top, spacing: 20) {
