@@ -41,7 +41,7 @@ struct CardView: View {
         .background(.black)
         .foregroundColor(.white)
         .cornerRadius(22)
-        .opacity(0.7)
+        //.opacity(0.7)
        
     }// card
 }
