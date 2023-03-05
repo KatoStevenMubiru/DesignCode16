@@ -9,11 +9,14 @@ import SwiftUI
 
 struct DetailView: View {
     var body: some View {
-        VStack {
-            ChartView()
-            CardView()
-            GridView()
-        }//Vstack
+      ViewThatFits {
+            VStack {
+                ChartView()
+                CardView()
+                GridView()
+                
+            }//Vstack
+        }//ViewThatFits
       
         
     }
