@@ -23,7 +23,7 @@ struct CardView: View {
             }//Grid Row
 
         }//Grid
-        
+        .padding(20)
     }//body
     
     
