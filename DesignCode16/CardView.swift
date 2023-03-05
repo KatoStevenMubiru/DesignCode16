@@ -13,10 +13,11 @@ struct CardView: View {
             GridRow{
                 card
                 card
-                
-                
-                
             }//Grid Row
+            GridRow{
+                card.gridCellColumns(2)
+            }//Grid Row
+
 
         }//Grid
         
