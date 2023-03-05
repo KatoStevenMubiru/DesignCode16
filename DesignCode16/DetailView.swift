@@ -15,7 +15,7 @@ struct DetailView: View {
                .foregroundColor(.secondary)
                .padding(.top, 20)
            Text("Entertainment")
-               .font(.largeTitle.width(.expanded))
+               .font(.largeTitle.width(.expanded).weight(.bold))
             ViewThatFits {
               
                 HStack(alignment: .top, spacing: 20) {
