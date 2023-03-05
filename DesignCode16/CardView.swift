@@ -16,6 +16,8 @@ struct CardView: View {
             
             Text("Up to 8k resolution".uppercased())
                 .font(.title3.width(.condensed).bold())
+            Text("Your wall paper will look good anywhere no matter the screen size")
+                .font(.footnote)
         }// Vstack
     }
 }
