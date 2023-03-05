@@ -52,6 +52,7 @@ struct ContentView: View {
             //}//button
             
         }//Zstack
+        .onTapGesture { }
         .gesture(longPress)
         .sheet(isPresented: $showMenu) {
             MenuView()
