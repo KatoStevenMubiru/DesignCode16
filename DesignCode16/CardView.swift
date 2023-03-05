@@ -31,7 +31,8 @@ struct CardView: View {
         VStack(spacing: 12) {
             hexaShape()
                 .stroke()
-            .frame(width: 45, height: 45)
+                .frame(width: 45, height: 45)
+                .foregroundStyle(.linearGradient(colors:[.clear, .white.opacity(0.8)], startPoint: .bottomTrailing, endPoint: .topLeading))
             
             Text("Up to 8k resolution".uppercased())
                 .font(.title3.width(.condensed).bold())
