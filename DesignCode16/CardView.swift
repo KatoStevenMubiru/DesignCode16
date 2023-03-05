@@ -17,7 +17,10 @@ struct CardView: View {
             GridRow{
                 card.gridCellColumns(2)
             }//Grid Row
-
+            GridRow{
+                card
+                card
+            }//Grid Row
 
         }//Grid
         
