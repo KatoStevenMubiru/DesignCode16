@@ -8,7 +8,9 @@
 import SwiftUI
 
 struct CardView: View {
-    var body: some View {
+    
+    
+    var card: some View {
         VStack(spacing: 12) {
             hexaShape()
                 .stroke()
