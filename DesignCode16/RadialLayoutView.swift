@@ -29,6 +29,8 @@ struct RadialLayoutView: View {
             .frame(width: 120)
             
              Text("12")
+                .font(.system(.title, design: .rounded)).bold()
+                .foregroundColor(.black)
         }//Zstack
         
     }
