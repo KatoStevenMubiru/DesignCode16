@@ -14,9 +14,12 @@ struct RadialLayoutView: View {
     
     var body: some View {
         
-       // let layout = isRadial ? 
+       // let layout = isRadial ?
         
         ZStack {
+            Circle()
+                .foregroundStyle(.white.shadow(.inner(radius: 30)))
+            
             radialLayOut {
                 
                ForEach(icons, id: \.self) { item in
