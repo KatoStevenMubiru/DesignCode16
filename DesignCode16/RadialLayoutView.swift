@@ -33,8 +33,9 @@ struct RadialLayoutView: View {
                     Text("\(item)")
                         .font(.system(.title, design: .rounded)).bold()
                     .foregroundColor(.black)
-                }
-            }
+                }//foreach
+            }//radialLayOut
+            .frame(width:250)
         }//Zstack
         
     }
