@@ -28,3 +28,6 @@ struct RadialLayoutView_Previews: PreviewProvider {
         RadialLayoutView()
     }
 }
+struct customLayOut: Layout{
+    
+}
