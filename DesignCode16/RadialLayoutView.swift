@@ -8,14 +8,16 @@
 import SwiftUI
 
 struct RadialLayoutView: View {
+    var icons = ["calendar", "message", "figure.walk","music.note"]
+    
     var body: some View {
        customLayOut {
             
-            ForEach(/*@START_MENU_TOKEN@*/0 ..< 5/*@END_MENU_TOKEN@*/) { item in
+           ForEach(icons, id: \.self) { item in
                 Circle()
                     .frame(width: 44)
                     .overlay {
-                        Image(systemName: "calendar").foregroundColor(.white)
+                        Image(systemName: item).foregroundColor(.white)
                 }
             }
         }
