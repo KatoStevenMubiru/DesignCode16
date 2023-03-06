@@ -37,10 +37,10 @@ struct customLayOut: Layout{
         for(index, subview) in subviews.enumerated(){
             var point = CGPoint(x: 50*index, y: 50*index)
             
-            point.x = bounds.midX
-            point.y = bounds.midY
+            point.x += bounds.midX
+            point.y += bounds.midY
             
-            subview.place(at: point , proposal: .unspecified)
+            subview.place(at: point , anchor: .center, proposal: .unspecified)
             
             
         }//for loop
