@@ -28,9 +28,13 @@ struct RadialLayoutView: View {
             }//customLayout
             .frame(width: 120)
             
-             Text("12")
-                .font(.system(.title, design: .rounded)).bold()
-                .foregroundColor(.black)
+            radialLayOut {
+                ForEach(numbers, id: \.self) { item in
+                    Text("\(item)")
+                        .font(.system(.title, design: .rounded)).bold()
+                    .foregroundColor(.black)
+                }
+            }
         }//Zstack
         
     }
