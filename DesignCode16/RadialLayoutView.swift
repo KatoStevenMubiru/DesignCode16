@@ -35,7 +35,7 @@ struct customLayOut: Layout{
     
     func placeSubviews(in bounds: CGRect, proposal: ProposedViewSize, subviews: Subviews, cache: inout ()) {
         for(index, subview) in subviews.enumerated(){
-            var point = CGPoint(x: 50*index, y: 50*index)
+            var point = CGPoint(x: 50*index, y: 50*index).applying(CGAffineTransform(rotationAngle: 6))
             
             point.x += bounds.midX
             point.y += bounds.midY
