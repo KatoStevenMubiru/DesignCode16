@@ -59,14 +59,14 @@ struct radialLayOut: Layout{
     func placeSubviews(in bounds: CGRect, proposal: ProposedViewSize, subviews: Subviews, cache: inout ()) {
         
         let radius = bounds.width/2.5
-        let angles = Angle.degrees(360.0/Double(subviews.count))
+        let angles = Angle.degrees(360.0/Double(subviews.count)).radians
         
         for(index, subview) in subviews.enumerated(){
-            var point = CGPoint(x:0, y: -radius).applying(CGAffineTransform(rotationAngle: angles))
+            var point = CGPoint(x:0, y: -radius).applying(CGAffineTransform(rotationAngle: angles * Double(index)))
             
             point.x += bounds.midX
             point.y += bounds.midY
-             * i
+            
             subview.place(at: point , anchor: .center, proposal: .unspecified)
             
             
