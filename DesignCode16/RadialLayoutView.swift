@@ -34,7 +34,7 @@ struct customLayOut: Layout{
     }
     
     func placeSubviews(in bounds: CGRect, proposal: ProposedViewSize, subviews: Subviews, cache: inout ()) {
-        <#code#>
+        subviews[0]
     }
     
     
