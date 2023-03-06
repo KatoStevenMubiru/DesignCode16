@@ -22,6 +22,7 @@ struct RadialLayoutView: View {
                 }
             }//forLoop
         }//customLayout
+       .frame(width: 120)
         
     }
 }
