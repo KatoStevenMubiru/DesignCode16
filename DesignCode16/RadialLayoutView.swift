@@ -51,3 +51,23 @@ struct customLayOut: Layout{
     
     
 }
+struct radialLayOut: Layout{
+    func sizeThatFits(proposal: ProposedViewSize, subviews: Subviews, cache: inout ()) -> CGSize {
+        proposal.replacingUnspecifiedDimensions()
+    }
+    
+    func placeSubviews(in bounds: CGRect, proposal: ProposedViewSize, subviews: Subviews, cache: inout ()) {
+        for(index, subview) in subviews.enumerated(){
+            var point = CGPoint(x: 50*index, y: 50*index).applying(CGAffineTransform(rotationAngle: 2))
+            
+            point.x += bounds.midX
+            point.y += bounds.midY
+            
+            subview.place(at: point , anchor: .center, proposal: .unspecified)
+            
+            
+        }//for loop
+    }
+    
+    
+}
