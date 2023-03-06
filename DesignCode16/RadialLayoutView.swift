@@ -16,11 +16,12 @@ struct RadialLayoutView: View {
            ForEach(icons, id: \.self) { item in
                 Circle()
                     .frame(width: 44)
+                    .foregroundColor(.black)
                     .overlay {
                         Image(systemName: item).foregroundColor(.white)
                 }
-            }
-        }
+            }//forLoop
+        }//customLayout
         
     }
 }
