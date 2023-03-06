@@ -14,6 +14,8 @@ struct RadialLayoutView: View {
     
     var body: some View {
         
+       // let layout = isRadial ? 
+        
         ZStack {
             radialLayOut {
                 
