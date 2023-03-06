@@ -12,7 +12,7 @@ struct RadialLayoutView: View {
         Circle()
             .frame(width: 44)
             .overlay {
-                Image("")
+                Image(systemName: "calendar").foregroundColor(.white)
             }
         
     }
