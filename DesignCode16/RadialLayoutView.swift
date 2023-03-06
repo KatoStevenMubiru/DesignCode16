@@ -13,18 +13,23 @@ struct RadialLayoutView: View {
     
     
     var body: some View {
-       radialLayOut {
+        
+        ZStack {
+            radialLayOut {
+                
+               ForEach(icons, id: \.self) { item in
+                    Circle()
+                        .frame(width: 44)
+                        .foregroundColor(.black)
+                        .overlay {
+                            Image(systemName: item).foregroundColor(.white)
+                    }
+                }//forLoop
+            }//customLayout
+            .frame(width: 120)
             
-           ForEach(icons, id: \.self) { item in
-                Circle()
-                    .frame(width: 44)
-                    .foregroundColor(.black)
-                    .overlay {
-                        Image(systemName: item).foregroundColor(.white)
-                }
-            }//forLoop
-        }//customLayout
-       .frame(width: 120)
+             Text("12")
+        }//Zstack
         
     }
 }
