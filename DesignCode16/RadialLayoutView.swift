@@ -11,6 +11,9 @@ struct RadialLayoutView: View {
     var body: some View {
         Circle()
             .frame(width: 44)
+            .overlay {
+                Image("")
+            }
         
     }
 }
