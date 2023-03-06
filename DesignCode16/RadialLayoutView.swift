@@ -28,6 +28,7 @@ struct RadialLayoutView: View {
             }//customLayout
             .frame(width: 120)
             
+            //: Hours
             radialLayOut {
                 ForEach(numbers, id: \.self) { item in
                     Text("\(item)")
@@ -36,6 +37,16 @@ struct RadialLayoutView: View {
                 }//foreach
             }//radialLayOut
             .frame(width:250)
+            
+            //: Minutes
+            radialLayOut {
+                ForEach(numbers, id: \.self) { item in
+                    Text("\(item)")
+                        .font(.system(.subheadline, design: .rounded))
+                    .foregroundColor(.black)
+                }//foreach
+            }//radialLayOut
+            .frame(width:360)
         }//Zstack
         
     }
