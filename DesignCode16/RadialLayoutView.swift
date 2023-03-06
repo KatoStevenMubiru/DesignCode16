@@ -41,7 +41,7 @@ struct RadialLayoutView: View {
             //: Minutes
             radialLayOut {
                 ForEach(numbers, id: \.self) { item in
-                    Text("\(item)")
+                    Text("\(item * 5)")
                         .font(.system(.subheadline, design: .rounded))
                     .foregroundColor(.black)
                 }//foreach
