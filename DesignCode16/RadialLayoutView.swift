@@ -29,5 +29,13 @@ struct RadialLayoutView_Previews: PreviewProvider {
     }
 }
 struct customLayOut: Layout{
+    func sizeThatFits(proposal: ProposedViewSize, subviews: Subviews, cache: inout ()) -> CGSize {
+        <#code#>
+    }
+    
+    func placeSubviews(in bounds: CGRect, proposal: ProposedViewSize, subviews: Subviews, cache: inout ()) {
+        <#code#>
+    }
+    
     
 }
