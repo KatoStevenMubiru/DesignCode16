@@ -48,6 +48,9 @@ struct RadialLayoutView: View {
             }//radialLayOut
             .frame(width:360)
             
+            Circle()
+                .stroke(style: StrokeStyle(lineWidth: 10))
+            
             
         }//Zstack
         
