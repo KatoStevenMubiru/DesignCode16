@@ -36,7 +36,7 @@ struct RadialLayoutView: View {
                     .foregroundColor(.black)
                 }//foreach
             }//radialLayOut
-            .frame(width:250)
+            .frame(width:240)
             
             //: Minutes
             radialLayOut {
@@ -47,6 +47,8 @@ struct RadialLayoutView: View {
                 }//foreach
             }//radialLayOut
             .frame(width:360)
+            
+            
         }//Zstack
         
     }
