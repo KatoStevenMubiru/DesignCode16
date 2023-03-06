@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9407E54529B58EEA007A0B13 /* RadialLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9407E54429B58EEA007A0B13 /* RadialLayoutView.swift */; };
 		942ECC7429AA58C500B948AC /* DesignCode16App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942ECC7329AA58C500B948AC /* DesignCode16App.swift */; };
 		942ECC7629AA58C500B948AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942ECC7529AA58C500B948AC /* ContentView.swift */; };
 		942ECC7829AA58C600B948AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 942ECC7729AA58C600B948AC /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9407E54429B58EEA007A0B13 /* RadialLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadialLayoutView.swift; sourceTree = "<group>"; };
 		942ECC7029AA58C500B948AC /* DesignCode16.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignCode16.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		942ECC7329AA58C500B948AC /* DesignCode16App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignCode16App.swift; sourceTree = "<group>"; };
 		942ECC7529AA58C500B948AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 				942EFA2E29B2E242008B2A20 /* ChartView.swift */,
 				942EFA3029B2EF69008B2A20 /* CardView.swift */,
 				944F99A629B44FAD00CEAD81 /* DetailView.swift */,
+				9407E54429B58EEA007A0B13 /* RadialLayoutView.swift */,
 			);
 			path = DesignCode16;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 				94992A2029B191AD008BD15A /* MenuView.swift in Sources */,
 				942EFA3129B2EF69008B2A20 /* CardView.swift in Sources */,
 				94A9B79529B04AF2003AE60E /* MessageView.swift in Sources */,
+				9407E54529B58EEA007A0B13 /* RadialLayoutView.swift in Sources */,
 				944F99A729B44FAD00CEAD81 /* DetailView.swift in Sources */,
 				942ECC7629AA58C500B948AC /* ContentView.swift in Sources */,
 				943CE98529AEF81100059AC5 /* Data.swift in Sources */,
