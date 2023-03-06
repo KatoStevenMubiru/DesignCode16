@@ -11,7 +11,7 @@ struct RadialLayoutView: View {
     var icons = ["calendar", "message", "figure.walk","music.note"]
     
     var body: some View {
-       customLayOut {
+       radialLayOut {
             
            ForEach(icons, id: \.self) { item in
                 Circle()
@@ -57,6 +57,9 @@ struct radialLayOut: Layout{
     }
     
     func placeSubviews(in bounds: CGRect, proposal: ProposedViewSize, subviews: Subviews, cache: inout ()) {
+        
+        let radius = bounds.width/2.5
+        
         for(index, subview) in subviews.enumerated(){
             var point = CGPoint(x: 50*index, y: 50*index).applying(CGAffineTransform(rotationAngle: 2))
             
