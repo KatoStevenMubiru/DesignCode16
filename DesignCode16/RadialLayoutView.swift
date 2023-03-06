@@ -9,11 +9,16 @@ import SwiftUI
 
 struct RadialLayoutView: View {
     var body: some View {
-        Circle()
-            .frame(width: 44)
-            .overlay {
-                Image(systemName: "calendar").foregroundColor(.white)
+        HStack {
+            
+            ForEach(/*@START_MENU_TOKEN@*/0 ..< 5/*@END_MENU_TOKEN@*/) { item in
+                Circle()
+                    .frame(width: 44)
+                    .overlay {
+                        Image(systemName: "calendar").foregroundColor(.white)
+                }
             }
+        }
         
     }
 }
