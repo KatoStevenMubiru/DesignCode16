@@ -21,14 +21,14 @@ struct RadialLayoutView: View {
     
             Circle()
                 .foregroundStyle(.white.shadow(.inner(color: .gray, radius: 30, x: 30 , y:30)))
-                //.frame(width: 280)
+                .frame(width: 280)
+            
             Circle()
                 .foregroundStyle(.white
                     .shadow(.inner(color: .gray, radius: 30, x: -30 , y:-30))
                     .shadow(.drop(color:.black.opacity(0.3), radius: 30, x: 30 , y : 30)
                 )
-                
-               // .frame(width: 280)
+                .frame(width: 320)
             
             radialLayOut {
                 
