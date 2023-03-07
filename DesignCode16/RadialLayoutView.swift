@@ -17,7 +17,8 @@ struct RadialLayoutView: View {
        // let layout = isRadial ?
         
         ZStack {
-            
+            Circle()
+                .frame(width: 360)
             Circle()
                 .foregroundStyle(
                     .white
