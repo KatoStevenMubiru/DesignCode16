@@ -24,7 +24,7 @@ struct RadialLayoutView: View {
                 //.frame(width: 280)
             Circle()
                 .foregroundStyle(.white.shadow(.inner(color: .gray, radius: 30, x: -30 , y:-30)))
-            
+                
                // .frame(width: 280)
             
             radialLayOut {
