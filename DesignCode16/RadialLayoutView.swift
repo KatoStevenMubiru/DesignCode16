@@ -19,6 +19,7 @@ struct RadialLayoutView: View {
         ZStack {
             Rectangle()
                 .fill(.gray)
+                .ignoresSafeArea(.all)
             
             Circle()
                 .foregroundStyle(
