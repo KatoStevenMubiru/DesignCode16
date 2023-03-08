@@ -11,6 +11,11 @@ struct cardReflectionView: View {
     var body: some View {
         
         Image("Background 1")
+            .overlay(
+        Image("Logo 1")
+            .resizable()
+            .aspectRatio(contentMode: .fit)
+            )
         
     }
 }
