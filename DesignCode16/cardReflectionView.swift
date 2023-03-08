@@ -15,6 +15,7 @@ struct cardReflectionView: View {
         Image("Logo 1")
             .resizable()
             .aspectRatio(contentMode: .fit)
+            .frame(width: 180)
             )
         
     }
