@@ -12,11 +12,13 @@ struct cardReflectionView: View {
         
         Image("Background 1")
             .overlay(
-        Image("Logo 1")
-            .resizable()
-            .aspectRatio(contentMode: .fit)
+                ZStack {
+                    Image("Logo 1")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
             .frame(width: 180)
-            )
+                }//Zstack
+            )//overlay
         
     }
 }
