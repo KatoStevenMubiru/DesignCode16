@@ -21,6 +21,7 @@ struct actionButtonView: View {
                 .mask(canvas)
                 .shadow(color: .white.opacity(0.2),radius: 0, x :-1 , y: -1)
                 .shadow(color: .white.opacity(0.2),radius: 0, x :-1 , y: -1)
+                .shadow(color: .white.opacity(0.5),radius: 10, x :10 , y: 10)
             
         }//Zstack
         .background(.black)
