@@ -91,7 +91,7 @@ struct RadialLayoutView: View {
                 )
                 .offset(y:-32)
                 .rotationEffect(Angle.degrees(hour))
-                .animation(.linear(duration: 120), value: <#T##Equatable#>)
+                .animation(.linear(duration: 120), value: hour)
             
            
             
