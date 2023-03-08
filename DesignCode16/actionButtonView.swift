@@ -41,6 +41,12 @@ struct actionButtonView: View {
             context.fill(Path(ellipseIn: CGRect(x: size.width-72 , y: size.height-70, width: 56, height: 56)), with: .color(.black))
         } symbols: {
             Circle()
+                .frame(width: 76)
+                .tag(1)
+            Circle()
+                .frame(width: 76)
+                .tag(2)
+                .offset(x: -50)
         }
         
         
