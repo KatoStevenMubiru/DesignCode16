@@ -25,12 +25,29 @@ struct actionButtonView: View {
                 .shadow(color: .white.opacity(0.2),radius: 0, x :-1 , y: -1)
                 .shadow(color: .white.opacity(0.5),radius: 10, x :10 , y: 10)
                 .overlay {
-                    Image(systemName: "plus")
-                        .font(.system(size: 30))
-                        .foregroundColor(.white)
-                        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottomTrailing)
+                    ZStack {
+                        Image(systemName: "plus")
+                            .font(.system(size: 30))
+                            .foregroundColor(.white)
+                            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottomTrailing)
                         .offset(x: -28 ,y: -28)
-                }
+                        Image(systemName: "moon.fill")
+                            .font(.system(size: 30))
+                            .foregroundColor(.white)
+                            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottomTrailing)
+                        .offset(x: -28 ,y: -128)
+                        Image(systemName: "quote.opening")
+                            .font(.system(size: 30))
+                            .foregroundColor(.white)
+                            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottomTrailing)
+                                 .offset(x: -113 ,y: -114)
+                        
+                        
+                        
+                        
+                        
+                    }//Zstack
+                }//overLay
                 .offset(y: -29)
                 .onTapGesture {
                     withAnimation(.spring(response: 0.8, dampingFraction: 0.6)){
