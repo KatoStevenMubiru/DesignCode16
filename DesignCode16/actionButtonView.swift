@@ -37,13 +37,17 @@ struct actionButtonView: View {
     }
     var canvas: some View{
         Canvas{ context, size in
+            context.addFilter(.alphaThreshold(min: 0.8))
             context.addFilter(.blur(radius: 10))
-            
-            for index in 1...2{
-                
-                if let symbol = context.resolveSymbol(id: index){
+            context.drawLayer { ctx in
+                for index in 1...2{
                     
-                    context.draw(symbol, at: CGPoint(x: size.width - 44, y: size.height - 44))
+                    if let symbol = context.resolveSymbol(id: index){
+                        
+                        ctx.draw(symbol, at: CGPoint(x: size.width - 44, y: size.height - 44))
+            }
+            
+            
                 
             }//for
           
