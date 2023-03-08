@@ -72,6 +72,14 @@ struct actionButtonView: View {
                 .frame(width: 76)
                 .tag(2)
                 .offset(x: show ? -100 : 0)
+            Circle()
+                .frame(width: 76)
+                .tag(3)
+                .offset(y: show ? -100 : 0)
+            Circle()
+                .frame(width: 76)
+                .tag(4)
+                .offset(x: show ? -100 : 0)
         }
         
         
