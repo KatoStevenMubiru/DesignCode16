@@ -17,7 +17,7 @@ struct actionButtonView: View {
             
             Canvas{ context, size in
                 
-                context.fill(<#T##path: Path##Path#>, with: <#T##GraphicsContext.Shading#>)
+                context.fill(Path(ellipseIn: CGRect(x: 0, y: 0, width: <#T##CGFloat#>, height: <#T##CGFloat#>)), with: <#T##GraphicsContext.Shading#>)
                 
             }// Canvas
             
