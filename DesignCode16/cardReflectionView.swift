@@ -14,9 +14,22 @@ struct cardReflectionView: View {
             .overlay(
                 ZStack {
                     Image("Logo 1")
-                .resizable()
-                .aspectRatio(contentMode: .fit)
-            .frame(width: 180)
+                          .resizable()
+                          .aspectRatio(contentMode: .fit)
+                          .frame(width: 180)
+                    Image("Logo 2")
+                          .resizable()
+                          .aspectRatio(contentMode: .fit)
+                          .frame(width: 180)
+                    Image("Logo 1")
+                          .resizable()
+                          .aspectRatio(contentMode: .fit)
+                          .frame(width: 180)
+                    Image("Logo 3")
+                          .resizable()
+                          .aspectRatio(contentMode: .fit)
+                          .frame(width: 180)
+                    
                 }//Zstack
             )//overlay
         
