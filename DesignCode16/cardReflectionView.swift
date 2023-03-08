@@ -29,7 +29,7 @@ struct cardReflectionView: View {
                           .resizable()
                           .aspectRatio(contentMode: .fit)
                           .frame(width: 180)
-                    
+                          .blendMode(.overlay)
                 }//Zstack
             )//overlay
         
