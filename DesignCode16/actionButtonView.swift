@@ -37,6 +37,7 @@ struct actionButtonView: View {
     }
     var canvas: some View{
         Canvas{ context, size in
+            context.addFilter(.blur(radius: 10))
             
             for index in 1...2{
                 
