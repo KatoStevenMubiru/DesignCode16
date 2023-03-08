@@ -17,6 +17,7 @@ struct actionButtonView: View {
             
             Rectangle()
                 .fill(.regularMaterial)
+                .mask(canvas)
             
         }//Zstack
         .background(.black)
