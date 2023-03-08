@@ -37,8 +37,13 @@ struct actionButtonView: View {
     }
     var canvas: some View{
         Canvas{ context, size in
+            if let symbol = context.resolve(id(1)){
+                
+                context.draw()
+                
+            }//if
             
-            context.fill(Path(ellipseIn: CGRect(x: size.width-72 , y: size.height-70, width: 56, height: 56)), with: .color(.black))
+            //context.fill(Path(ellipseIn: CGRect(x: size.width-72 , y: size.height-70, width: 56, height: 56)), with: .color(.black))
         } symbols: {
             Circle()
                 .frame(width: 76)
