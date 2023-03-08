@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct actionButtonView: View {
+    @State var show = false
+    
     var body: some View {
         
         ZStack {
@@ -29,6 +31,7 @@ struct actionButtonView: View {
                         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottomTrailing)
                         .offset(x: -28 ,y: -28)
                 }
+                .offset(y: -29)
             
         }//Zstack
         .background(.black)
