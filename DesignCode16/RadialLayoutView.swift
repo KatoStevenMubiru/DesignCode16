@@ -90,9 +90,9 @@ struct RadialLayoutView: View {
                 )
                 .offset(y:-46)
                 .shadow(radius: 5, y: 5)
-                .rotationEffect(Angle.degrees(hour))
-                .animation(.linear(duration: 120), value: hour)
-            
+                .rotationEffect(Angle.degrees(minute))
+                .animation(.linear(duration: 10), value: minute)
+            //minute
             
             RoundedRectangle(cornerRadius: 4)
                 .foregroundStyle(.black)
@@ -104,7 +104,7 @@ struct RadialLayoutView: View {
                 .shadow(radius: 5, y: 15)
                 .rotationEffect(Angle.degrees(hour))
                 .animation(.linear(duration: 120), value: hour)
-            
+            //hour
            
             
         }//Zstack
