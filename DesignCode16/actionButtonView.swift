@@ -17,6 +17,7 @@ struct actionButtonView: View {
             
         }//Zstack
         .background(.black)
+        .ignoresSafeArea(.all)
     }
 }
 
