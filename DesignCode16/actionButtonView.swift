@@ -15,7 +15,9 @@ struct actionButtonView: View {
                 .resizable()
             .cornerRadius(50)
             
-            canvas
+            Rectangle()
+                .fill(.regularMaterial)
+            
         }//Zstack
         .background(.black)
         .ignoresSafeArea(.all)
