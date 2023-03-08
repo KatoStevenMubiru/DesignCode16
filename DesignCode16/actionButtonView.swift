@@ -37,9 +37,9 @@ struct actionButtonView: View {
     }
     var canvas: some View{
         Canvas{ context, size in
-            if let symbol = context.resolve(id(1)){
+            if let symbol = context.resolveSymbol(id: 1){
                 
-                context.draw()
+                context.draw(symbol, at: )
                 
             }//if
             
