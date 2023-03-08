@@ -22,6 +22,7 @@ struct actionButtonView: View {
         }//Zstack
         .background(.black)
         .ignoresSafeArea(.all)
+        .preferredColorScheme(.dark)
     }
     var canvas: some View{
         Canvas{ context, size in
