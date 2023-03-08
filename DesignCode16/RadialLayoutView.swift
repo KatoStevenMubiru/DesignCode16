@@ -83,6 +83,12 @@ struct RadialLayoutView: View {
                 .strokeBorder(style: StrokeStyle(lineWidth: 10, dash: [1 , 10]))
                 .frame(width: 260)
             
+            RoundedRectangle(cornerRadius: 4)
+                .foregroundStyle(.black)
+                .frame( width: 8, height: 70)
+                .offset(y:-32)
+                .o
+            
            
             
         }//Zstack
