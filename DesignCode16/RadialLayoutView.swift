@@ -84,7 +84,7 @@ struct RadialLayoutView: View {
                 .frame(width: 260)
             RoundedRectangle(cornerRadius: 4)
                 .foregroundStyle(.black)
-                .frame( width: 8, height: 100)
+                .frame( width: 5, height: 100)
                 .overlay(
                     RoundedRectangle(cornerRadius: 4).stroke().fill(.white)
                 )
