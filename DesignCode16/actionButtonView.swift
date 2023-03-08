@@ -41,11 +41,11 @@ struct actionButtonView: View {
                             .foregroundColor(.white)
                             .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottomTrailing)
                             .offset(x: -123 ,y: -114)
-                        Image(systemName: "moon.fill")
+                        Image(systemName: "bubble.left.fill")
                             .font(.system(size: 30))
                             .foregroundColor(.white)
                             .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottomTrailing)
-                            .offset(x: -128 ,y: -28)
+                            .offset(x: -125 ,y: -28)
                         
                         
                         
