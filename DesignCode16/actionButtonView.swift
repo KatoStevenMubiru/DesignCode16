@@ -15,6 +15,13 @@ struct actionButtonView: View {
                 .resizable()
             .cornerRadius(50)
             
+            Canvas{ context, size in
+                
+                context.fill(<#T##path: Path##Path#>, with: <#T##GraphicsContext.Shading#>)
+                
+            }// Canvas
+            
+            
         }//Zstack
         .background(.black)
         .ignoresSafeArea(.all)
