@@ -21,6 +21,7 @@
 		94AB06D429AB04F7001A5A36 /* NavigationStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AB06D329AB04F7001A5A36 /* NavigationStackView.swift */; };
 		94AB06D629AB0BB5001A5A36 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AB06D529AB0BB5001A5A36 /* GridView.swift */; };
 		94E3EDBA29B8300100DE6787 /* cardReflectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E3EDB929B8300100DE6787 /* cardReflectionView.swift */; };
+		94E3EDBC29B833AF00DE6787 /* actionButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E3EDBB29B833AF00DE6787 /* actionButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		94AB06D329AB04F7001A5A36 /* NavigationStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackView.swift; sourceTree = "<group>"; };
 		94AB06D529AB0BB5001A5A36 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
 		94E3EDB929B8300100DE6787 /* cardReflectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardReflectionView.swift; sourceTree = "<group>"; };
+		94E3EDBB29B833AF00DE6787 /* actionButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = actionButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				944F99A629B44FAD00CEAD81 /* DetailView.swift */,
 				9407E54429B58EEA007A0B13 /* RadialLayoutView.swift */,
 				94E3EDB929B8300100DE6787 /* cardReflectionView.swift */,
+				94E3EDBB29B833AF00DE6787 /* actionButtonView.swift */,
 			);
 			path = DesignCode16;
 			sourceTree = "<group>";
@@ -176,6 +179,7 @@
 				943CE98529AEF81100059AC5 /* Data.swift in Sources */,
 				94E3EDBA29B8300100DE6787 /* cardReflectionView.swift in Sources */,
 				94AB06D429AB04F7001A5A36 /* NavigationStackView.swift in Sources */,
+				94E3EDBC29B833AF00DE6787 /* actionButtonView.swift in Sources */,
 				94AB06D629AB0BB5001A5A36 /* GridView.swift in Sources */,
 				942ECC7429AA58C500B948AC /* DesignCode16App.swift in Sources */,
 				942EFA2F29B2E242008B2A20 /* ChartView.swift in Sources */,
