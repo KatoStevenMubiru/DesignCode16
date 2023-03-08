@@ -48,7 +48,8 @@ struct actionButtonView: View {
                                 .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottomTrailing)
                                 .offset(x: -125 ,y: -28)
                             
-                        }
+                        }//group
+                        .opacity(show ? 1 : 0)
                         
                        
                         
