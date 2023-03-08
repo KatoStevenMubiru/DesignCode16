@@ -83,8 +83,15 @@ struct RadialLayoutView: View {
                 .strokeBorder(style: StrokeStyle(lineWidth: 10, dash: [1 , 10]))
                 .frame(width: 260)
             
+           
             
         }//Zstack
+        .onAppear{
+            hour = 360
+            minute = 360
+            
+        }//Onappear
+        
         
     }
 }
