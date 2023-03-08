@@ -32,6 +32,12 @@ struct actionButtonView: View {
                         .offset(x: -28 ,y: -28)
                 }
                 .offset(y: -29)
+                .onTapGesture {
+                    withAnimation(.spring(response: 0.8, dampingFraction: 0.6)){
+                        
+                        
+                    }//withAnimation
+                }//onTapGesture
             
         }//Zstack
         .background(.black)
