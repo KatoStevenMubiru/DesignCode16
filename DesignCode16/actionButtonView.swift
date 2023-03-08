@@ -50,6 +50,8 @@ struct actionButtonView: View {
                             
                         }//group
                         .opacity(show ? 1 : 0)
+                        .blur(radius: show ? 0 : 10)
+                        .scaleEffect(show ? 1 : 0.5)
                         
                        
                         
