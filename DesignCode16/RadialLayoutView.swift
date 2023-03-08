@@ -82,6 +82,17 @@ struct RadialLayoutView: View {
             Circle()
                 .strokeBorder(style: StrokeStyle(lineWidth: 10, dash: [1 , 10]))
                 .frame(width: 260)
+            RoundedRectangle(cornerRadius: 4)
+                .foregroundStyle(.black)
+                .frame( width: 8, height: 100)
+                .overlay(
+                    RoundedRectangle(cornerRadius: 4).stroke().fill(.white)
+                )
+                .offset(y:-46)
+                .shadow(radius: 5, y: 5)
+                .rotationEffect(Angle.degrees(hour))
+                .animation(.linear(duration: 120), value: hour)
+            
             
             RoundedRectangle(cornerRadius: 4)
                 .foregroundStyle(.black)
