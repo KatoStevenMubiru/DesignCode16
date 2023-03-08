@@ -31,22 +31,26 @@ struct actionButtonView: View {
                             .foregroundColor(.white)
                             .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottomTrailing)
                             .offset(x: -28 ,y: -28)
-                        Image(systemName: "moon.fill")
-                            .font(.system(size: 30))
-                            .foregroundColor(.white)
-                            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottomTrailing)
+                        Group {
+                            Image(systemName: "moon.fill")
+                                .font(.system(size: 30))
+                                .foregroundColor(.white)
+                                .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottomTrailing)
                             .offset(x: -28 ,y: -128)
-                        Image(systemName: "quote.opening")
-                            .font(.system(size: 30))
-                            .foregroundColor(.white)
-                            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottomTrailing)
-                            .offset(x: -123 ,y: -114)
-                        Image(systemName: "bubble.left.fill")
-                            .font(.system(size: 30))
-                            .foregroundColor(.white)
-                            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottomTrailing)
-                            .offset(x: -125 ,y: -28)
+                            Image(systemName: "quote.opening")
+                                .font(.system(size: 30))
+                                .foregroundColor(.white)
+                                .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottomTrailing)
+                                .offset(x: -123 ,y: -114)
+                            Image(systemName: "bubble.left.fill")
+                                .font(.system(size: 30))
+                                .foregroundColor(.white)
+                                .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottomTrailing)
+                                .offset(x: -125 ,y: -28)
+                            
+                        }
                         
+                       
                         
                         
                         
