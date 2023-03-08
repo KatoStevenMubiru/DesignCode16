@@ -86,11 +86,17 @@ struct RadialLayoutView: View {
            
             
         }//Zstack
+        
         .onAppear{
             hour = 360
             minute = 360
             
         }//Onappear
+        .onTapGesture {
+            withAnimation(.spring()){
+                isRadial.toggle()
+            }
+        }
         
         
     }
