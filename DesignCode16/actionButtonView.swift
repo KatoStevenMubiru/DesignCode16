@@ -19,6 +19,7 @@ struct actionButtonView: View {
                 .fill(.ultraThinMaterial)
                 .overlay(Rectangle().fill(.black.opacity(0.5)).blendMode(.overlay))
                 .mask(canvas)
+                .shadow(color: .white.opacity(),radius: 0, x :-1 , y: -1)
             
         }//Zstack
         .background(.black)
