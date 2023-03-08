@@ -49,7 +49,7 @@ struct actionButtonView: View {
             context.addFilter(.alphaThreshold(min: 0.8))
             context.addFilter(.blur(radius: 10))
             context.drawLayer { ctx in
-                for index in 1...2{
+                for index in 1...4{
                     
                     if let symbol = context.resolveSymbol(id: index){
                         
