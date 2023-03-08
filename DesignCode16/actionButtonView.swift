@@ -27,6 +27,7 @@ struct actionButtonView: View {
                         .font(.system(size: 30))
                         .foregroundColor(.white)
                         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottomTrailing)
+                        .offset(x: -28 ,y: -28)
                 }
             
         }//Zstack
