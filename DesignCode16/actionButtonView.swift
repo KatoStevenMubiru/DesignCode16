@@ -39,8 +39,9 @@ struct actionButtonView: View {
         Canvas{ context, size in
             
             context.fill(Path(ellipseIn: CGRect(x: size.width-72 , y: size.height-70, width: 56, height: 56)), with: .color(.black))
-                
-        }// Canvas
+        } symbols: {
+            Circle()
+        }
         
         
     }//canvas
