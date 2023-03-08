@@ -24,6 +24,9 @@ struct actionButtonView: View {
                 .shadow(color: .white.opacity(0.5),radius: 10, x :10 , y: 10)
                 .overlay {
                     Image(systemName: "plus")
+                        .font(.system(size: 30))
+                        .foregroundColor(.white)
+                        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottomTrailing)
                 }
             
         }//Zstack
