@@ -91,7 +91,7 @@ struct RadialLayoutView: View {
                 .offset(y:-46)
                 .shadow(radius: 5, y: 5)
                 .rotationEffect(Angle.degrees(minute))
-                .animation(.linear(duration: 10), value: minute)
+                .animation(.linear(duration: 10).repeatCount(12, autoreverses: false), value: minute)
             //minute
             
             RoundedRectangle(cornerRadius: 4)
