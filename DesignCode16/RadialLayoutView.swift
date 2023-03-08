@@ -12,7 +12,7 @@ struct RadialLayoutView: View {
     var numbers = [12, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
     @State var isRadial = true
     @State var hour: Double = 0
-    @State var minute 
+    @State var minute: Double = 0
     
     var body: some View {
         
