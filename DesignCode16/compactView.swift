@@ -32,6 +32,10 @@ struct compactView: View {
     var outerCircle: some View{
         
         Circle()
+            .foregroundStyle(
+                LinearGradient(colors: [.black, .clear], startPoint: .topLeading, endPoint: .bottomTrailing)
+            
+            )
         
         
     }//outerCircle
