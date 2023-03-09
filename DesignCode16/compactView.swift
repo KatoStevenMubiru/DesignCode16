@@ -31,14 +31,16 @@ struct compactView: View {
     
     var outerCircle: some View{
         
-        Circle()
-            .foregroundStyle(
-                LinearGradient(colors: [.black, .clear], startPoint: .topLeading, endPoint: .bottomTrailing)
-                    .shadow(.inner(color: .white.opacity(0.3),radius: 0.5, x: 1, y : 1))
-                    
-            
+        ZStack {
+            Circle()
+                .foregroundStyle(
+                    LinearGradient(colors: [.black, .clear], startPoint: .topLeading, endPoint: .bottomTrailing)
+                        .shadow(.inner(color: .white.opacity(0.3),radius: 0.5, x: 1, y : 1))
+                
             )
-        
+                .scaleEffect(1.2)
+        }//zstack
+        .frame(width: 395)
         
     }//outerCircle
     
