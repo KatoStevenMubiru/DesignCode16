@@ -8,10 +8,11 @@
 import SwiftUI
 
 struct compactView: View {
+    
+     
     var body: some View {
         
-        RadialGradient(colors: [Color(#)], center: <#T##UnitPoint#>, startRadius: <#T##CGFloat#>, endRadius: <#T##CGFloat#>)
-        
+        RadialGradient(colors: [Color("3B3C5E"), .black], center: .center, startRadius: 1, endRadius: 400)
     }
 }
 
