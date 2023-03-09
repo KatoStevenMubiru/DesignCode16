@@ -14,7 +14,7 @@ struct compactView: View {
         ZStack {
             
             background
-            outerCircle
+            outerCircles
             circle
             
         }//Zstack
@@ -29,12 +29,26 @@ struct compactView: View {
         
     }//background
     
+    var outerCircles: some View{
+        ZStack{
+            
+            outerCircle.scaleEffect(1.2)
+            outerCircle.scaleEffect(1.5)
+            
+            
+        }//Zstack
+        .frame(width: 395)
+        
+    }//outerCircles
+    
+    
+    
     var outerCircle: some View{
         
         ZStack {
             Circle()
                 .foregroundStyle(
-                    LinearGradient(colors: [.black, .clear], startPoint: .topLeading, endPoint: .bottomTrailing)
+                    LinearGradient(colors: [.black.opacity(0.5), .clear], startPoint: .topLeading, endPoint: .bottomTrailing)
                         .shadow(.inner(color: .white.opacity(0.3),radius: 0.5, x: 1, y : 1))
                 
             )
