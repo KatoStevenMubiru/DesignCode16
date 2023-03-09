@@ -29,6 +29,14 @@ struct compactView: View {
         
     }//background
     
+    var outerCircle: some View{
+        
+        Circle()
+        
+        
+    }//outerCircle
+    
+    
     var circle : some View{
         ZStack {
             Circle().strokeBorder(gradient, style: StrokeStyle(lineWidth: 5, dash: [1, 1]))
