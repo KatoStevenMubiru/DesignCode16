@@ -44,7 +44,7 @@ struct ContentView: View {
             case .gooey:
                 Text("Goey")
             case .actionbutton:
-                Text("Action Button")
+             actionButtonView()
             }
             
             //Button("Show Menu"){
