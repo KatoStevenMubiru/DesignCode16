@@ -9,7 +9,9 @@ import SwiftUI
 
 struct compactView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        RadialGradient(colors: [Color(#)], center: <#T##UnitPoint#>, startRadius: <#T##CGFloat#>, endRadius: <#T##CGFloat#>)
+        
     }
 }
 
