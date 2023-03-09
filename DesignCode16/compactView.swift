@@ -33,7 +33,8 @@ struct compactView: View {
         
         Circle()
             .foregroundStyle(
-                LinearGradient(colors: [.black, .clear], startPoint: .topLeading, endPoint: .bottomTrailing
+                LinearGradient(colors: [.black, .clear], startPoint: .topLeading, endPoint: .bottomTrailing)
+                    .shadow(.inner(color: .white.opacity(0.3),radius: 0.5, x: 1, y : 1))
                     
             
             )
