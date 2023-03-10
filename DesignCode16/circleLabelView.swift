@@ -9,7 +9,7 @@ import SwiftUI
 
 struct circleLabelView: View {
     
-    var text = "Latitude".uppercased()
+    var text = "Latitude 35.08587 E ".uppercased()
     
     var body: some View {
         
