@@ -8,8 +8,18 @@
 import SwiftUI
 
 struct circleLabelView: View {
+    
+    var text = "Latitude".uppercased()
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        VStack {
+            ForEach(Array(text.enumerated()), id: \.offset) { index, letter in
+            
+                    Text(String(letter))
+                
+            }
+        }//forEach
     }
 }
 
