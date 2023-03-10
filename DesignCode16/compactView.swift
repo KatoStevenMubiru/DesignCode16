@@ -73,12 +73,19 @@ struct compactView: View {
                 .shadow(.drop(color: .black.opacity(0.25),radius: 0, x: 1, y: 1))
             )
         
+    }//innerCircle3
+    
+    var innerCircle4: some View{
+        
+        Circle()
+            .foregroundStyle(
+                .linearGradient(colors: [Color(#colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)),Color(#colorLiteral(red: 0, green: 0, blue: 0, alpha: 1))], startPoint: .topLeading, endPoint: .bottomTrailing)
+                .shadow(.inner(color: .white.opacity(0.25),radius: 0, x: 1, y: 1))
+                .shadow(.inner(color: .black.opacity(0.25),radius: 0, x: 1, y: 1))
+            )
         
         
-        
-        
-        
-    }//innerCircle
+    }//innerCircle4
 
     var background: some View{
         
