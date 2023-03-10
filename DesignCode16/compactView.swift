@@ -15,6 +15,7 @@ struct compactView: View {
             
             background
             outerCircles
+            innerCircles
             circle
             
         }//Zstack
