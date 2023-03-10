@@ -17,11 +17,16 @@ struct compactView: View {
             outerCircles
             innerCircles
             circle
-            
+            light
         }//Zstack
       
         
     }//body
+    
+    var light : some View{
+        Circle()
+            
+    }
     
     var innerCircles : some View{
         
@@ -33,7 +38,7 @@ struct compactView: View {
             innerCircle4.padding(120)
             innerCircle4.padding(145)
             innerCircle4.padding(170)
-            innerCircle5.padding(180)
+            innerCircle5.padding(185)
             
             
         }//Zstack
