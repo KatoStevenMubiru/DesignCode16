@@ -17,6 +17,7 @@ struct compactView: View {
             background
             outerCircles
             innerCircles
+            flashLight
             circleLabel
             circle
             light
@@ -24,6 +25,24 @@ struct compactView: View {
       
         
     }//body
+    var flashLight : some View{
+        Circle()
+            .
+        //
+    }//flashLight
+    
+    var drag : some Gesture{
+        
+        DragGesture()
+            .onChanged { value in
+                location = value.location
+            }//onChanged
+        
+        
+        
+    }//drag
+    
+    
     var circleLabel : some View{
         
         circleLabelView(diameter: 225).foregroundStyle(.white)
