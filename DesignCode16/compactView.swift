@@ -29,7 +29,7 @@ struct compactView: View {
             innerCircle1.padding(20)
             innerCircle2.padding(80)
             innerCircle3.padding(100)
-           // innerCircle4.padding(120)
+            innerCircle4.padding(120)
           //  innerCircle5.padding(145)
           //  innerCircle6.padding(170)
            // innerCircle7.padding(180)
@@ -79,9 +79,9 @@ struct compactView: View {
         
         Circle()
             .foregroundStyle(
-                .linearGradient(colors: [Color(#colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)),Color(#colorLiteral(red: 0, green: 0, blue: 0, alpha: 1))], startPoint: .topLeading, endPoint: .bottomTrailing)
-                .shadow(.inner(color: .white.opacity(0.25),radius: 0, x: 1, y: 1))
-                .shadow(.inner(color: .black.opacity(0.25),radius: 0, x: 1, y: 1))
+                .linearGradient(colors: [Color(#colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)).opacity(0.5),Color(#colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)).opacity(0.0)], startPoint: .topLeading, endPoint: .bottomTrailing)
+                .shadow(.inner(color: .white.opacity(0.5),radius: 0, x: 1, y: 1))
+                
             )
         
         
