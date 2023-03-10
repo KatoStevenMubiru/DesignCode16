@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct compactView: View {
+    @State var location: CGPoint = .zero
     
     var body: some View {
         
@@ -16,13 +17,18 @@ struct compactView: View {
             background
             outerCircles
             innerCircles
+            circleLabel
             circle
             light
         }//Zstack
       
         
     }//body
-    
+    var circleLabel : some View{
+        
+        circleLabelView(diameter: 225).foregroundStyle(.white)
+        
+    }//circleLabel
     var light : some View{
         Circle()
             .trim(from: 0.6, to: 0.9)
