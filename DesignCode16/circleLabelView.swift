@@ -23,7 +23,7 @@ struct circleLabelView: View {
                     Spacer()
                     
                 }//Vstack
-                .rotationEffect(.degrees( Double(5 * index)))
+                .rotationEffect(.degrees( textWidth * Double(index)))
             }//forEach        }//forEach
             
         }//Zstack
