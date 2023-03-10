@@ -26,7 +26,7 @@ struct compactView: View {
     var light : some View{
         Circle()
             .trim(from: 0.6, to: 0.9)
-            .stroke(.radialGradient(colors: [.white.opacity(0.2), .clear], center: .center, startRadius: 0.2, endRadius: 200), style: StrokeStyle(lineWidth: 200))
+            .stroke(.radialGradient(colors: [.white.opacity(0.35), .clear], center: .center, startRadius: 0.2, endRadius: 200), style: StrokeStyle(lineWidth: 200))
             .frame(width: 200)
     }
     
