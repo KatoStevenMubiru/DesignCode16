@@ -23,13 +23,20 @@ struct compactView: View {
     }//body
     
     var innerCircles : some View{
-        innerCircle1.padding(20)
-        innerCircle2.padding(80)
-        innerCircle3.padding(100)
-        innerCircle4.padding(120)
-        innerCircle5.padding(145)
-        innerCircle6.padding(170)
-        innerCircle7.padding(180)
+        
+        ZStack{
+            
+            innerCircle1.padding(20)
+            innerCircle2.padding(80)
+            innerCircle3.padding(100)
+            innerCircle4.padding(120)
+            innerCircle5.padding(145)
+            innerCircle6.padding(170)
+            innerCircle7.padding(180)
+            
+            
+        }//Zstack
+        .frame(width: 393)
         
         
         
