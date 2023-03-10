@@ -38,15 +38,18 @@ struct compactView: View {
         }//Zstack
         .frame(width: 393)
         
-        
-        
-        
+    
     }//innerCircles
     
     
     var innerCircle1 : some View{
         
-        
+        Circle()
+            .foregroundStyle(
+                .linearGradient(colors: [Color(], startPoint: <#T##UnitPoint#>, endPoint: <#T##UnitPoint#>)
+            
+            
+            )
         
         
     }//innerCircle1
