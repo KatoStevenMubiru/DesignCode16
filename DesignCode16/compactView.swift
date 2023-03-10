@@ -30,9 +30,9 @@ struct compactView: View {
             innerCircle2.padding(80)
             innerCircle3.padding(100)
             innerCircle4.padding(120)
-          //  innerCircle5.padding(145)
-          //  innerCircle6.padding(170)
-           // innerCircle7.padding(180)
+            innerCircle4.padding(145)
+            innerCircle4.padding(170)
+            innerCircle5.padding(180)
             
             
         }//Zstack
@@ -86,6 +86,14 @@ struct compactView: View {
         
         
     }//innerCircle4
+    
+    var innerCircle5: some View{
+        
+        Circle()
+            .foregroundStyle(.white)
+        
+        
+    }//innerCircle5
 
     var background: some View{
         
