@@ -48,13 +48,24 @@ struct compactView: View {
             .foregroundStyle(
                 .linearGradient(colors: [Color(#colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)),Color(#colorLiteral(red: 0.2549019754, green: 0.2745098174, blue: 0.3019607961, alpha: 1))], startPoint: .topLeading, endPoint: .bottomTrailing)
                 .shadow(.inner(color: .white.opacity(0.25),radius: 0, x: 1, y: 1))
-            
-            
+                .shadow(.inner(color: .black.opacity(0.25),radius: 0, x: 1, y: 1))
             )
         
         
     }//innerCircle1
     
+    var innerCircle2 : some View{
+        
+        Circle()
+            .foregroundStyle(
+                .linearGradient(colors: [Color(#colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)),Color(#colorLiteral(red: 0, green: 0, blue: 0, alpha: 1))], startPoint: .topLeading, endPoint: .bottomTrailing)
+                .shadow(.inner(color: .white.opacity(0.25),radius: 0, x: 1, y: 1))
+                .shadow(.inner(color: .black.opacity(0.25),radius: 0, x: 1, y: 1))
+            )
+        
+        
+        
+    }//innerCircle2
 
     var background: some View{
         
