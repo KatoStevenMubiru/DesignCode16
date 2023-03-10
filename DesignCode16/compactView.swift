@@ -22,6 +22,24 @@ struct compactView: View {
         
     }//body
     
+    var innerCircles : some View{
+        innerCircle1.padding(20)
+        innerCircle2.padding(80)
+        innerCircle3.padding(100)
+        innerCircle4.padding(120)
+        innerCircle5.padding(145)
+        innerCircle6.padding(170)
+        innerCircle7.padding(180)
+        
+        
+        
+        
+    }//innerCircles
+    
+    
+    var innerCircle1
+    
+    
     var background: some View{
         
         RadialGradient(colors: [Color(#colorLiteral(red: 0.2980392157, green: 0.3058823529, blue: 0.4431372549, alpha: 1)), .black], center: .center, startRadius: 1, endRadius: 400)
