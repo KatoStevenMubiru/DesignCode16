@@ -18,12 +18,15 @@ struct circleLabelView: View {
                 
                 VStack {
                     Text(String(letter))
+                    Spacer()
                     
                 }//Vstack
                 .rotationEffect(.degrees(Double(5 * index)))
             }//forEach        }//forEach
             
         }//Zstack
+        .frame(width: 300, height: 300)
+        .font(.system(size: 14, design: .monospaced))
     }
 }
 
