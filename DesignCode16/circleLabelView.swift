@@ -13,15 +13,17 @@ struct circleLabelView: View {
     
     var body: some View {
         
-            ZStack {
+        ZStack {
             ForEach(Array(text.enumerated()), id: \.offset) { index, letter in
-            
+                
                 VStack {
                     Text(String(letter))
-                        
+                    
                 }//Vstack
-                .rotationEffect(.degrees(5 * index))
+                .rotationEffect(.degrees(Double(5 * index)))
             }//forEach        }//forEach
+            
+        }//Zstack
     }
 }
 
