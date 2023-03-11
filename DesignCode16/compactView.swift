@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct compactView: View {
-    @State var location: CGPoint = .zero
+    @State var location: CGSize = .zero
     
     var body: some View {
         
