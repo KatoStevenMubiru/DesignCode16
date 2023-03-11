@@ -27,7 +27,7 @@ struct compactView: View {
     }//body
     var flashLight : some View{
         Circle()
-            .
+            
         //
     }//flashLight
     
