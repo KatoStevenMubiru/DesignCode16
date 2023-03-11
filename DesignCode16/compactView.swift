@@ -26,10 +26,13 @@ struct compactView: View {
         
     }//body
     var flashLight : some View{
-        Circle()
-            .offset(x: location.width, y: location.height)
+        
+        GeometryReader{ proxy in
+            Circle()
+                .fill(.white)
+                .offset(x: location.width, y: location.height)
             
-        //
+        }//
     }//flashLight
     
     var drag : some Gesture{
