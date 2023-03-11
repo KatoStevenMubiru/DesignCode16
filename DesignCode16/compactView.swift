@@ -46,7 +46,7 @@ struct compactView: View {
         
         DragGesture()
             .onChanged { value in
-                location = value.translation
+                //location = value.translation
             }//onChanged
         
         
