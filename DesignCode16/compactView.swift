@@ -22,11 +22,12 @@ struct compactView: View {
             circle
             light
         }//Zstack
-      
+        .gesture(drag)
         
     }//body
     var flashLight : some View{
         Circle()
+            .offset(x: location.x, y: location.y)
             
         //
     }//flashLight
