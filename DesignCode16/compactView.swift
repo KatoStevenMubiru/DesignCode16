@@ -31,14 +31,16 @@ struct compactView: View {
             ZStack {
                 Circle()
                     .fill(.white)
-                    .offset(x: location.x-proxy.size.width/2, y: location.y-proxy.size.height)
+                    //.offset(x: location.x-proxy.size.width/2,
+                            //y: location.y-proxy.size.height/2
+                   // )
             }//Zstack
             .frame(
                 width: proxy.frame(in: .global).width,
                 height: proxy.frame(in: .global).height
-            )
+            )//frame
             
-        }//
+        }//GeometryReader
     }//flashLight
     
     var drag : some Gesture{
