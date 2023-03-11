@@ -27,7 +27,7 @@ struct compactView: View {
     }//body
     var flashLight : some View{
         Circle()
-            .offset(x: location.x, y: location.y)
+            .offset(x: location.width, y: location.height)
             
         //
     }//flashLight
@@ -36,7 +36,7 @@ struct compactView: View {
         
         DragGesture()
             .onChanged { value in
-                location = value.location
+                location = value.translation
             }//onChanged
         
         
