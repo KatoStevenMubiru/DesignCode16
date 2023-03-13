@@ -34,6 +34,7 @@ struct compactView: View {
                 Circle()
                     .fill(.radialGradient(colors: [.white.opacity(0.2), .clear], center: .center, startRadius: 0, endRadius: 200))
                     .offset(x: location.x-200, y: location.y-380)
+                    .opacity(isDragging ? 1 : 0)
             }//Zstack
             .frame(
                 width: proxy.frame(in: .global).width,
@@ -41,7 +42,7 @@ struct compactView: View {
             )//frame
             
         }//GeometryReader
-    }//flashLight
+    }//flashLight gesture
     
     var drag : some Gesture{
         
