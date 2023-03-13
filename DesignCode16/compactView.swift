@@ -43,6 +43,13 @@ struct compactView: View {
                         ZStack {
                             Circle().stroke().scaleEffect(1.2)
                             Circle().stroke().scaleEffect(1.5)
+                            Circle().stroke.padding(20)
+                            Circle().stroke.padding(80)
+                            Circle().stroke.padding(100)
+                            Circle().stroke.padding(120)
+                            Circle().stroke.padding(145)
+                            Circle.stroke.padding(170)
+                            
                         }//Zsstack
                     )//mask
             }//Zstack
