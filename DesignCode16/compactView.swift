@@ -31,9 +31,12 @@ struct compactView: View {
     
     var wayPoints : some View{
         
-        Circle()
-            .fill(.red)
-            .frame(width: 16)
+        ZStack {
+            Circle()
+                .fill(.red)
+                .frame(width: 16)
+            .offset(x: 100, y: 210)
+        }
         
         
         
