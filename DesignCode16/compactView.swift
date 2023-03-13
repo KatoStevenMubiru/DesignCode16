@@ -54,20 +54,25 @@ struct compactView: View {
                                     .offset(x: 0, y: -210)
                                 .rotationEffect(.degrees(-31))
                                 Text("Emotokka")
+                                    .rotationEffect(.degrees(171))
                                     .offset(x: 0, y: 60)
-                                .rotationEffect(.degrees(171))
+                                
                                 Text("N")
-                                    .offset(x: 0, y: -210)
-                                .rotationEffect(.degrees(0))
+                                    .rotationEffect(.degrees(0))
+                                    .offset(x: 0, y: -135)
+                               
                                 Text("E")
-                                    .offset(x: 0, y: -210)
-                                .rotationEffect(.degrees(0))
+                                    .rotationEffect(.degrees(90))
+                                    .offset(x: 135, y: 0)
+                                
                                 Text("S")
-                                    .offset(x: 0, y: 300)
-                                .rotationEffect(.degrees(-31))
+                                    .rotationEffect(.degrees(180))
+                                    .offset(x: 0, y: 135)
+                              
                                 Text("W")
-                                    .offset(x: 0, y: 210)
-                                .rotationEffect(.degrees(-31))
+                                    .rotationEffect(.degrees(270))
+                                    .offset(x: -135, y: 0)
+                                
                             }//group
                             
                             
