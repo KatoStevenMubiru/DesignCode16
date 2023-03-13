@@ -48,7 +48,11 @@ struct compactView: View {
         DragGesture()
             .onChanged { value in
                 location = value.location
+                isDragging = true
             }//onChanged
+            .onEnded { value in
+                isDragging = false
+            }//onEnded
         
         
         
