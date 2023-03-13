@@ -49,9 +49,26 @@ struct compactView: View {
                             Circle().stroke().padding(120)
                             Circle().stroke().padding(145)
                             Circle().stroke().padding(170)
-                            Text("Ewammwe❤️")
-                                .offset(x: 0, y: -210)
+                            Group {
+                                Text("Ewammwe❤️")
+                                    .offset(x: 0, y: -210)
                                 .rotationEffect(.degrees(-31))
+                                Text("Ewammwe❤️")
+                                    .offset(x: 0, y: -210)
+                                .rotationEffect(.degrees(-31))
+                                Text("Ewammwe❤️")
+                                    .offset(x: 0, y: -210)
+                                .rotationEffect(.degrees(-31))
+                                Text("Ewammwe❤️")
+                                    .offset(x: 0, y: -210)
+                                .rotationEffect(.degrees(-31))
+                                Text("Ewammwe❤️")
+                                    .offset(x: 0, y: -210)
+                                .rotationEffect(.degrees(-31))
+                                Text("Ewammwe❤️")
+                                    .offset(x: 0, y: -210)
+                                .rotationEffect(.degrees(-31))
+                            }//group
                             
                             
                         }//Zsstack
