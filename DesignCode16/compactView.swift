@@ -36,6 +36,10 @@ struct compactView: View {
                 .fill(.red)
                 .frame(width: 16)
             .offset(x: 100, y: 210)
+            Circle()
+                .fill(.red)
+                .frame(width: 16)
+            .offset(x: 100, y: 210)
         }
         
         
