@@ -10,7 +10,7 @@ import SwiftUI
 struct compactView: View {
     @State var location: CGPoint = .zero
    // @State var translation:CGPoint = .zero
-    
+    @State var isDragging = false
     
     var body: some View {
         
