@@ -40,9 +40,11 @@ struct compactView: View {
                     .offset(x: location.x-200, y: location.y-380)
                     .opacity(isDragging ? 1 : 0)
                     .mask(
-                        Circle().stroke()
-                  
-                    )
+                        ZStack {
+                            Circle().stroke().scaleEffect(1.2)
+                            Circle().stroke().scaleEffect(1.5)
+                        }//Zsstack
+                    )//mask
             }//Zstack
             .frame(
                 width: proxy.frame(in: .global).width,
