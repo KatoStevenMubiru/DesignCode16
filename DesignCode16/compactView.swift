@@ -20,6 +20,7 @@ struct compactView: View {
             outerCircles
             innerCircles
             flashLight
+            wayPoints
             circleLabel
             circle
             light
@@ -27,6 +28,8 @@ struct compactView: View {
         .gesture(drag)
         
     }//body
+    
+    
     var flashLight : some View{
         
         GeometryReader{ proxy in
