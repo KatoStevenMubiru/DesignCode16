@@ -49,9 +49,11 @@ struct compactView: View {
                             Circle().stroke().padding(120)
                             Circle().stroke().padding(145)
                             Circle().stroke().padding(170)
+                            Text("Ewaka")
+                                .offset(x: 0, y: -210)
                             
                         }//Zsstack
-                        
+                            .frame(width: 393)
                     )//mask
             }//Zstack
             .frame(
