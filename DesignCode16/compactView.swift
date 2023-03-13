@@ -9,7 +9,8 @@ import SwiftUI
 
 struct compactView: View {
     @State var location: CGPoint = .zero
-    @State var translation:CGPoint = .zero
+   // @State var translation:CGPoint = .zero
+    
     
     var body: some View {
         
@@ -31,7 +32,7 @@ struct compactView: View {
         GeometryReader{ proxy in
             ZStack {
                 Circle()
-                    .fill(.radialGradient(colors: [.white.opacity(0.1), .clear], center: .center, startRadius: 0, endRadius: 200))
+                    .fill(.radialGradient(colors: [.white.opacity(0.2), .clear], center: .center, startRadius: 0, endRadius: 200))
                     .offset(x: location.x-200, y: location.y-380)
             }//Zstack
             .frame(
