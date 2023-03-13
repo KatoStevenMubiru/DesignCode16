@@ -29,7 +29,15 @@ struct compactView: View {
         
     }//body
     
-    
+    var wayPoints : some View{
+        
+        Circle()
+            .fill(.red)
+            .frame(width: 16)
+        
+        
+        
+    }//wayPoints
     var flashLight : some View{
         
         GeometryReader{ proxy in
