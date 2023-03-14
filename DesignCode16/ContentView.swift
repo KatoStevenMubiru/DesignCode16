@@ -31,7 +31,7 @@ struct ContentView: View {
             
             switch selectedMenu{
             case .compass:
-                MessageView()
+                compactView()
                 
             case .card:
                 Text("Card")
