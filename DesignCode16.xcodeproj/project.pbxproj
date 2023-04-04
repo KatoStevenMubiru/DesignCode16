@@ -21,6 +21,7 @@
 		94A9B79529B04AF2003AE60E /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A9B79429B04AF2003AE60E /* MessageView.swift */; };
 		94AB06D429AB04F7001A5A36 /* NavigationStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AB06D329AB04F7001A5A36 /* NavigationStackView.swift */; };
 		94AB06D629AB0BB5001A5A36 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AB06D529AB0BB5001A5A36 /* GridView.swift */; };
+		94CDDBA929DC054B00F28DC9 /* locationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CDDBA829DC054B00F28DC9 /* locationManager.swift */; };
 		94DB36F229BADBD70019699A /* circleLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DB36F129BADBD70019699A /* circleLabelView.swift */; };
 		94E3EDBA29B8300100DE6787 /* cardReflectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E3EDB929B8300100DE6787 /* cardReflectionView.swift */; };
 		94E3EDBC29B833AF00DE6787 /* actionButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E3EDBB29B833AF00DE6787 /* actionButtonView.swift */; };
@@ -42,6 +43,7 @@
 		94A9B79429B04AF2003AE60E /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
 		94AB06D329AB04F7001A5A36 /* NavigationStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackView.swift; sourceTree = "<group>"; };
 		94AB06D529AB0BB5001A5A36 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		94CDDBA829DC054B00F28DC9 /* locationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = locationManager.swift; sourceTree = "<group>"; };
 		94DB36F129BADBD70019699A /* circleLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = circleLabelView.swift; sourceTree = "<group>"; };
 		94E3EDB929B8300100DE6787 /* cardReflectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardReflectionView.swift; sourceTree = "<group>"; };
 		94E3EDBB29B833AF00DE6787 /* actionButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = actionButtonView.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 				94E3EDBB29B833AF00DE6787 /* actionButtonView.swift */,
 				94A25B5B29BA565E00EB3312 /* compactView.swift */,
 				94DB36F129BADBD70019699A /* circleLabelView.swift */,
+				94CDDBA829DC054B00F28DC9 /* locationManager.swift */,
 			);
 			path = DesignCode16;
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 				942EFA3129B2EF69008B2A20 /* CardView.swift in Sources */,
 				94DB36F229BADBD70019699A /* circleLabelView.swift in Sources */,
 				94A9B79529B04AF2003AE60E /* MessageView.swift in Sources */,
+				94CDDBA929DC054B00F28DC9 /* locationManager.swift in Sources */,
 				9407E54529B58EEA007A0B13 /* RadialLayoutView.swift in Sources */,
 				94A25B5C29BA565E00EB3312 /* compactView.swift in Sources */,
 				944F99A729B44FAD00CEAD81 /* DetailView.swift in Sources */,
