@@ -9,3 +9,4 @@ Features such as Swift Charts, Dynamic Island type animation(using canvas and co
 ![Simulator Screen Shot - iPhone 14 Pro - 2023-03-09 at 09 00 13](https://user-images.githubusercontent.com/107347178/223934245-a4efbfb0-d9e6-49c2-8682-fa0a49f11c3c.png)
 ![Simulator Screen Shot - iPhone 14 Pro - 2023-03-09 at 09 01 47](https://user-images.githubusercontent.com/107347178/223934250-e784a160-7b6a-4e6f-98c9-53c262f0b3e2.png)
 ![Simulator Screen Shot - iPhone 14 Pro - 2023-03-09 at 09 01 58](https://user-images.githubusercontent.com/107347178/223934275-27c577c4-79cb-42b2-8819-f1f47a85a7a0.png)
+<img width="1280" alt="Screenshot 2023-03-14 at 06 14 41" src="https://user-images.githubusercontent.com/107347178/224884261-75fa11c0-5276-4e72-a225-dc18f061d44e.png">
