@@ -6,3 +6,12 @@
 //
 
 import CoreLocation
+
+class LocationManager : NSObject, ObservableObject, CLLocationManager{
+    
+    
+    
+    
+    
+    
+}
