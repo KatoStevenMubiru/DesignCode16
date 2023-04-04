@@ -7,9 +7,9 @@
 
 import CoreLocation
 
-class LocationManager : NSObject, ObservableObject, CLLocationManager{
+class LocationManager : NSObject, ObservableObject, CLLocationManagerDelegate{
     
-    
+    let manager = CLLocationManager
     
     
     
