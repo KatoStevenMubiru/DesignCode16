@@ -21,6 +21,8 @@ class LocationManager : NSObject, ObservableObject, CLLocationManagerDelegate{
     }//init
     
     
-    
+    func locationManager(_ manager: CLLocationManager, didUpdateHeading newHeading: CLHeading) {
+        <#code#>
+    }
     
 }//locationManager
