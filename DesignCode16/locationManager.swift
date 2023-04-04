@@ -18,9 +18,9 @@ class LocationManager : NSObject, ObservableObject, CLLocationManagerDelegate{
         manager.startUpdatingHeading()
         manager.requestWhenInUseAuthorization()
         
-    }
+    }//init
     
     
     
     
-}
+}//locationManager
