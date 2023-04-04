@@ -22,7 +22,7 @@ class LocationManager : NSObject, ObservableObject, CLLocationManagerDelegate{
     
     
     func locationManager(_ manager: CLLocationManager, didUpdateHeading newHeading: CLHeading) {
-        <#code#>
+        degrees = newHeading.trueHeading
     }
     
 }//locationManager
