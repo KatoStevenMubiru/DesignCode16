@@ -25,10 +25,15 @@ struct compactView: View {
             circleLabel
             circle
             light
+            title
         }//Zstack
         .gesture(drag)
         
     }//body
+    var title : some View{
+        Text("\(locationManager.degrees)")
+        
+    }//text
     
     var wayPoints : some View{
         
