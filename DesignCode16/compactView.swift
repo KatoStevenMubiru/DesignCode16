@@ -34,7 +34,8 @@ struct compactView: View {
         Text("\(locationManager.degrees)")
             .font(.largeTitle)
             .foregroundColor(.white)
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
+            
         
     }//text
     
