@@ -11,6 +11,7 @@ struct compactView: View {
     @State var location: CGPoint = .zero
    // @State var translation:CGPoint = .zero
     @State var isDragging = false
+    @ObservedObject var locationManager = LocationManager()
     
     var body: some View {
         
