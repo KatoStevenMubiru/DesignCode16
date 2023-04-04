@@ -13,8 +13,10 @@ class LocationManager : NSObject, ObservableObject, CLLocationManagerDelegate{
     @Published var degrees : Double = 0
     
     override init() {
+        super.init()
         manager.delegate = self
         manager.startUpdatingHeading()
+        manager.requestWhenInUseAuthorization()
         
     }
     
