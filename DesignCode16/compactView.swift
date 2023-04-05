@@ -37,6 +37,7 @@ struct compactView: View {
                 .font(.footnote)
         }
         .font(.largeTitle)
+        .fontWeight(.medium)
         .foregroundColor(.white)
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
 
