@@ -37,14 +37,22 @@ struct compactView: View {
             Text("\(String(format: "%.0f",locationManager.degrees))°\(compassDirection(locationManager.degrees))")
             Text("Washington".uppercased())
                 .font(.footnote)
-            LocationButton{
-                locationManager.requestLocation()
+            if let myLocation = locationManager.location{
+                Text()
                 
-            }//locationButton
-            .labelStyle(.iconOnly)
-            .cornerRadius(20)
-            .font(.footnote)
-            //.frame(width: )
+                
+            }else{
+                
+                LocationButton{
+                    locationManager.requestLocation()
+                    
+                }//locationButton
+                .labelStyle(.iconOnly)
+                .cornerRadius(20)
+                .font(.footnote)
+            }//else
+            
+         
         }
       
         .font(.largeTitle)
