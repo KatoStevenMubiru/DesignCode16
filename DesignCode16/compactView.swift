@@ -39,7 +39,7 @@ struct compactView: View {
                 .font(.footnote)
             
             LocationButton{
-                
+                locationManager.requestLocation()
                 
             }//locationButton
            
