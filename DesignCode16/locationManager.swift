@@ -25,4 +25,10 @@ class LocationManager : NSObject, ObservableObject, CLLocationManagerDelegate{
         degrees = newHeading.trueHeading
     }
     
+    func compassDirection(_ degrees : Double) -> String{
+        
+        let directions = ""
+        
+    }//compassDirection
+    
 }//locationManager
