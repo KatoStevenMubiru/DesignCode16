@@ -38,7 +38,7 @@ struct compactView: View {
             Text("Washington".uppercased())
                 .font(.footnote)
             if let myLocation = locationManager.location{
-                Text()
+                Text("Longtitude : \(myLocation.longitude.formatted(.number.precision(.fractionLength(2)))), Latitude : \(myLocation.latitude.formatted(.number.precision(.fractionLength(2))))")
                 
                 
             }else{
