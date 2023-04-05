@@ -11,7 +11,7 @@ class LocationManager : NSObject, ObservableObject, CLLocationManagerDelegate{
     
     let manager = CLLocationManager()
     @Published var degrees : Double = 0
-    @Published var location : CLLocationCoordinate2D
+    @Published var location : CLLocationCoordinate2D?
     
     override init() {
         super.init()
