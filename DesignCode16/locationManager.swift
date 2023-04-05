@@ -18,6 +18,8 @@ class LocationManager : NSObject, ObservableObject, CLLocationManagerDelegate{
         manager.delegate = self
         manager.startUpdatingHeading()
         manager.requestWhenInUseAuthorization()
+        manager.startUpdatingLocation()
+        
         
     }//init
     
