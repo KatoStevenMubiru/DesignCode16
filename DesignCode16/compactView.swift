@@ -24,8 +24,10 @@ struct compactView: View {
             innerCircles
             flashLight
             wayPoints
+                .rotationEffect(.degrees(locationManager.degrees))
             circleLabel
             circle
+                .rotationEffect(.degrees(locationManager.degrees))
             light
             title
         }//Zstack
