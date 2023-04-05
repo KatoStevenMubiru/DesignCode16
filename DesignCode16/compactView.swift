@@ -37,15 +37,16 @@ struct compactView: View {
             Text("\(String(format: "%.0f",locationManager.degrees))°\(compassDirection(locationManager.degrees))")
             Text("Washington".uppercased())
                 .font(.footnote)
-            
             LocationButton{
                 locationManager.requestLocation()
                 
             }//locationButton
             .labelStyle(.iconOnly)
             .cornerRadius(20)
+            .font(.footnote)
             //.frame(width: )
         }
+      
         .font(.largeTitle)
         .fontWeight(.medium)
         .foregroundColor(.white)
