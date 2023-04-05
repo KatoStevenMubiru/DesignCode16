@@ -16,6 +16,7 @@
 		942EFA3129B2EF69008B2A20 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942EFA3029B2EF69008B2A20 /* CardView.swift */; };
 		943CE98529AEF81100059AC5 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943CE98429AEF81100059AC5 /* Data.swift */; };
 		944F99A729B44FAD00CEAD81 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944F99A629B44FAD00CEAD81 /* DetailView.swift */; };
+		9487061E29DD9E8500DDA0D4 /* customSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9487061D29DD9E8500DDA0D4 /* customSheet.swift */; };
 		94992A2029B191AD008BD15A /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94992A1F29B191AD008BD15A /* MenuView.swift */; };
 		94A25B5C29BA565E00EB3312 /* compactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A25B5B29BA565E00EB3312 /* compactView.swift */; };
 		94A9B79529B04AF2003AE60E /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A9B79429B04AF2003AE60E /* MessageView.swift */; };
@@ -39,6 +40,7 @@
 		943CE98429AEF81100059AC5 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		944F99A629B44FAD00CEAD81 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		9487061C29DD973900DDA0D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9487061D29DD9E8500DDA0D4 /* customSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customSheet.swift; sourceTree = "<group>"; };
 		94992A1F29B191AD008BD15A /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		94A25B5B29BA565E00EB3312 /* compactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = compactView.swift; sourceTree = "<group>"; };
 		94A9B79429B04AF2003AE60E /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 				94A25B5B29BA565E00EB3312 /* compactView.swift */,
 				94DB36F129BADBD70019699A /* circleLabelView.swift */,
 				94CDDBA829DC054B00F28DC9 /* locationManager.swift */,
+				9487061D29DD9E8500DDA0D4 /* customSheet.swift */,
 			);
 			path = DesignCode16;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 				94E3EDBA29B8300100DE6787 /* cardReflectionView.swift in Sources */,
 				94AB06D429AB04F7001A5A36 /* NavigationStackView.swift in Sources */,
 				94E3EDBC29B833AF00DE6787 /* actionButtonView.swift in Sources */,
+				9487061E29DD9E8500DDA0D4 /* customSheet.swift in Sources */,
 				94AB06D629AB0BB5001A5A36 /* GridView.swift in Sources */,
 				942ECC7429AA58C500B948AC /* DesignCode16App.swift in Sources */,
 				942EFA2F29B2E242008B2A20 /* ChartView.swift in Sources */,
