@@ -52,6 +52,9 @@ struct ContentView: View {
             //}//button
             
         }//Zstack
+        .overlay(content: {
+            MessageView()
+        })
         .onTapGesture { }
         .gesture(longPress)
         .sheet(isPresented: $showMenu) {
