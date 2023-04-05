@@ -41,6 +41,7 @@ struct compactView: View {
                 .font(.footnote)
             if let myLocation = locationManager.location{
                 Text("Longtitude : \(myLocation.longitude.formatted(.number.precision(.fractionLength(2)))), Latitude : \(myLocation.latitude.formatted(.number.precision(.fractionLength(2))))")
+                    .font(.footnote)
                 
                 
             }else{
@@ -133,7 +134,7 @@ struct compactView: View {
                                     .offset(x: -135, y: 0)
                                 
                             }//group
-                            
+                            .rotationEffect(.degrees(locationManager.degrees))
                             
                         }//Zsstack
                             .frame(width: 393)
