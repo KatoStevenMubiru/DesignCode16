@@ -6,6 +6,8 @@
 //
 
 import SwiftUI
+import CoreLocationUI
+
 
 struct compactView: View {
     @State var location: CGPoint = .zero
@@ -35,6 +37,12 @@ struct compactView: View {
             Text("\(String(format: "%.0f",locationManager.degrees))°\(compassDirection(locationManager.degrees))")
             Text("Washington".uppercased())
                 .font(.footnote)
+            
+            LocationButton{
+                
+                
+            }//locationButton
+           
         }
         .font(.largeTitle)
         .fontWeight(.medium)
