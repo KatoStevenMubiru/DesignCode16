@@ -27,7 +27,9 @@ class LocationManager : NSObject, ObservableObject, CLLocationManagerDelegate{
     
     func compassDirection(_ degrees : Double) -> String{
         
-        let directions = ""
+        let directions = ["N", "NE", "E","SE","S", "SW", "W", "NW"]
+        let index = Int(degrees +  22.5 / 45.0) & 7
+        return directions[index]
         
     }//compassDirection
     
