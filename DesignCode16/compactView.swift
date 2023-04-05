@@ -33,7 +33,8 @@ struct compactView: View {
     var title : some View{
         VStack {
             Text("\(String(format: "%.0f",locationManager.degrees))°")
-            //Text("Washington".uppercased())
+            Text("Washington".uppercased())
+                .font(.footnote)
         }
         .font(.largeTitle)
         .foregroundColor(.white)
