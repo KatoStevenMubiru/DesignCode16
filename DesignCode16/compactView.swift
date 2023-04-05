@@ -31,11 +31,14 @@ struct compactView: View {
         
     }//body
     var title : some View{
-        Text("\(String(format: "%.0f",locationManager.degrees))°")
-        Text("Washington".uppercased())
-            .font(.largeTitle)
-            .foregroundColor(.white)
-            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
+        VStack {
+            Text("\(String(format: "%.0f",locationManager.degrees))°")
+            //Text("Washington".uppercased())
+        }
+        .font(.largeTitle)
+        .foregroundColor(.white)
+        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
+
             
         
     }//text
