@@ -22,11 +22,14 @@ class LocationManager : NSObject, ObservableObject, CLLocationManagerDelegate{
         
         
     }//init
-    
+    func requestLocation(){
+        manager.requestLocation()
+        
+    }//requestLocation
     
     func locationManager(_ manager: CLLocationManager, didUpdateHeading newHeading: CLHeading) {
         degrees = newHeading.trueHeading
-    }
+    }//locationManager
     
     
     
