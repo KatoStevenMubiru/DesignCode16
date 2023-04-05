@@ -42,7 +42,9 @@ struct compactView: View {
                 locationManager.requestLocation()
                 
             }//locationButton
-           
+            .labelStyle(.iconOnly)
+            .cornerRadius(20)
+            //.frame(width: )
         }
         .font(.largeTitle)
         .fontWeight(.medium)
